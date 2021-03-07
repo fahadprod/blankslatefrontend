@@ -1,0 +1,1931 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>BlankSlate</title>
+	<link rel="shortcut icon" href="../wp-content/uploads/2019/10/Half-Logo.svg" type="image/x-icon">
+                        <script>
+                            /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
+                            if ( typeof WebFontConfig === "undefined" ) {
+                                WebFontConfig = new Object();
+                            }
+                            /* WGL CUSTOM TYPOGRAPHY FIX */
+                            WebFontConfig['google'] = {families: ['Open+Sans:400,600', 'Muli:900,700,600,700,800', 'Quicksand:500,700']};
+                            /* \ WGL CUSTOM TYPOGRAPHY FIX */
+
+                            (function() {
+                                var wf = document.createElement( 'script' );
+                                wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
+                                wf.type = 'text/javascript';
+                                wf.async = 'true';
+                                var s = document.getElementsByTagName( 'script' )[0];
+                                s.parentNode.insertBefore( wf, s );
+                            })();
+                        </script>
+        
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/blankslatetechnology.com\/test\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+.accordion-button{
+	padding: 1rem 0.25rem !important;
+}
+.course-content{
+	background: #f8f8f8; 
+	padding: 50px 50px; 
+	border-radius: 10px;
+}
+a{
+	text-decoration: none !important;
+}
+
+@media (max-width: 425px){
+	.course-content{
+		padding: 50px 5px;
+	}
+	.accordion-body{
+		padding: 1rem 0rem !important;
+		font-size: 12px;
+	}
+	.capstone{
+		margin-left: 20px;
+	}
+}
+@media(max-width: 375px){
+	.course-content h2 button{
+		font-size: 12px !important;
+	}
+}
+.capstone{
+	border: 1px solid #FF6D34 !important;
+	color: #fff !important;
+	border-radius: 10px !important;
+	background-color: #FF6D34 !important;
+	font-weight: bold !important;
+}
+.capstone:hover{
+	border: 1px solid #FF6D34 !important;
+	color: #FF6D34!important;
+	background: rgb(243, 242, 239) !important;
+}
+
+</style>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+	
+<link rel="stylesheet" id="lp-course-wishlist-style-css" href="../wp-content/plugins/learnpress-wishlist/assets/css/wishlist.css?ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="../wp-includes/css/dist/block-library/style.min.css?ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="../wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4" type="text/css" media="all">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="../wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.3.6" type="text/css" media="all">
+<style id="rs-plugin-settings-inline-css" type="text/css">#rs-demo-id {}</style>
+<link rel="stylesheet" id="iguru-default-style-css" href="../wp-content/themes/iguru/style.css?ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="flaticon-css" href="../wp-content/themes/iguru/fonts/flaticon/flaticon.css?ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="vc_font_awesome_5_shims-css" href="../wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/v4-shims.min.css?ver=6.5.0" type="text/css" media="all">
+<link rel="stylesheet" id="vc_font_awesome_5-css" href="../wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/all.min.css?ver=6.5.0" type="text/css" media="all">
+<link rel="stylesheet" id="swipebox-css" href="../wp-content/themes/iguru/js/swipebox/css/swipebox.min.css?ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="iguru-main-css" href="../wp-content/themes/iguru/css/main.css?ver=5.6.2" type="text/css" media="all">
+<style id="iguru-main-inline-css" type="text/css">body {font-family: Open Sans;font-size: 16px;line-height: 1.875;font-weight: 400;color: #5f5f5f;}#comments .commentlist .comment_info .meta-wrapper *,textarea,body input:not([type='checkbox']):not([type='submit']),.blog-post_info-wrap > .meta-wrapper *,.single-team .single_team_page .team-info_item h5 + span,.isotope-filter a .number_filter,.portfolio_info_item-info_desc h5,.iguru_module_time_line_vertical .time_line-title,.iguru_module_pricing_plan .pricing_price_wrap .pricing_desc {font-family: Open Sans;}select,body .footer .select__field:before,body input:not([type='checkbox']):not([type='submit'])::placeholder,ul.wgl-pagination li span,select::placeholder,textarea::placeholder,.blog-post.format-quote .blog-post_quote-author-pos,.vc_wp_custommenu .menu .menu-item.current-menu-item > a,.recent-posts-widget .meta-wrapper a:hover,.vc_row .vc_toggle .vc_toggle_icon,.iguru_module_testimonials .testimonials_quote,.iguru_module_message_box .message_content .message_text,.iguru_module_infobox .infobox_content,.tagcloud a,#learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .course-item-meta .count-questions,#learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .course-item-meta .duration,.course-tab-panel-curriculum .course-curriculum ul.curriculum-sections .section-content .course-item .item-name,.course-tab-panel-curriculum .course-curriculum ul.curriculum-sections .section-content .course-item .course-item-meta .item-meta,.course-curriculum ul.curriculum-sections .section-content .course-item .item-name,.learn-press-courses .course:hover .course-info .course-excerpt,.single-lp_course .lp-single-course .course-meta .reviews-total,.learn-press-form .form-fields .form-field .description,.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-tabs .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading .vc_tta-panel-title {color: #5f5f5f;}.iguru_module_carousel .slick-prev:after,.iguru_module_carousel .slick-next:after {border-color: #5f5f5f;}.iguru_module_title .external_link .button-read-more {line-height: 1.875;}h1,h2,h3,h4,h5,h6,h1 span,h2 span,h3 span,h4 span,h5 span,h6 span,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.blog-post_cats,.column1 .item_title a,.tagcloud-wrapper .title_tags,.strip_template .strip-item a span,.single_team_page .team-single_speaches-info .speech-info_desc span,.shortcode_tab_item_title,.index_number,.primary-nav.footer-menu .menu-item a,.page-header_wrapper .page-header_title,.iguru_twitter .twitt_title {font-family: Muli;font-weight: 900;}blockquote,input[type="submit"],button,body .comment-respond .comment-reply-title,body .widget_rss ul li .rss-date,body .widget_meta a,body .widget_meta .post_count,label,legend,select,.page-header_breadcrumbs .breadcrumbs,.wgl-social-share_pages.hovered_style .share_social-title,.load_more_item,.blog-post_text-bg,.author-info_name,.button-read-more,.blog-post_meta_share .share_title,.blog-post_meta-date .date_post,.blog-post_meta-date .date_post span,.theme-header-font,.countdown-section .countdown-amount,.iguru_module_progress_bar .progress_label,.iguru_module_double_headings,.iguru_module_infobox .infobox_icon_container .infobox_icon_number,.iguru_module_button.wgl_button .wgl_button_link,.iguru_module_testimonials .testimonials_item:before,.iguru_module_testimonials .testimonials_status,.iguru_module_videobox .title,.iguru_module_progress_bar .progress_value,.iguru_module_progress_bar .progress_units,.iguru_module_counter .counter_value_placeholder,.iguru_module_ico_progress .progress_value_completed,.iguru_module_ico_progress .progress_value_min,.iguru_module_ico_progress .progress_value_max,.iguru_module_ico_progress .progress_point,.iguru_module_flipbox .flipbox_front .flipbox_subtitle,.iguru_module_pricing_plan .pricing_content,.iguru_module_pricing_plan .pricing_desc,.mashsb-count .counts,.mashsb-box .mashsb-buttons a .text,.prev-link,.next-link,.vc_row .vc_tta.vc_general.vc_tta-style-accordion_bordered .vc_tta-panel-title>a span,.widget.iguru_widget.iguru_banner-widget .banner-widget_text,.widget.iguru_widget.iguru_banner-widget .banner-widget_text_bg,.widget.iguru_widget.iguru_banner-widget .banner-widget_button,.widget.widget_wgl_posts .recent-posts-widget li > .recent-posts-content .post_title,.heading_subtitle,.prev-link_wrapper .info_wrapper a,.next-link_wrapper .info_wrapper a,.single_meta .single_info-share_social-wpapper > span.share_title,.single_team_page .team-single_speaches-info .speech-info_day,.single_team_page .team-info_wrapper .team-info_item,.single_post_info,.wgl_timetabs .timetabs_headings .wgl_tab .tab_title,.wgl_portfolio_item-meta .post_cats,.wgl_portfolio_item-cats,.wgl-pagination .page-numbers,.wgl_module_team .team-department,.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab > a,.wpb-js-composer .wgl-container .vc_chart.vc_round-chart[data-vc-legend="1"] .vc_chart-legend li,ul.wp-block-archives.wp-block-archives-list li a,ul.wp-block-latest-posts li a,.wp-block-latest-comments__comment,.iguru_module_social.full_width .soc_icon .text,span[class|=dropcap],.footer .copyright,.author-widget_title,.banner_404,.primary-nav ul li ul li > a:before,.iguru_module_counter .counter_value_wrapper,.iguru_module_testimonials .testimonials_name,.iguru_module_lp_cats .cat_name,.iguru-post-navigation .meta-wrapper span,.learn-press-courses .course .cat-links,.single-lp_course .course-summary .course-meta .meta_data a,.learn-press-courses .course .course-info .course-instructor,.checkout.learnpress-page .learn-press-checkout .checkout-review-order table th,.learnpress .lp-user-profile #learn-press-profile-content .lp-list-table thead th,.widget .widget-title:after,.coming_soon,.subtitle {font-family: Muli;}.iguru_module_time_line_horizontal .tlh_date,.wgl_portfolio_single-item .tagcloud .tagcloud_desc,.wgl_timetabs .timetabs_data .timetabs_item .item_time,.wgl_timetabs .timetabs_data .timetabs_item .content-wrapper .item_title,.single-lp_course .course-tab-panel-instructor .author-name,.wpb-js-composer .wgl-container .vc_row .vc_pie_chart .vc_pie_chart_value,.isotope-filter a {font-family: Muli;color: #2c2c2c;}.theme-header-color,#comment .comment-reply-link:hover,#comment .comment-reply-link:focus,#comment .comment-reply-link:active,body .footer select option,button,blockquote,h1,h2,h3,h4,h5,h6,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,h1 span,h2 span,h3 span,h4 span,h5 span,h6 span,h3#reply-title a,.calendar_wrap tbody,.comment_author_says,.comment_author_says a,.tagcloud-wrapper .title_tags,.iguru_module_double_headings .dlh_title,.iguru_module_testimonials .testimonials_item .testimonials_content_wrap .testimonials_name,.iguru_module_pricing_plan .pricing_plan_wrap .pricing_content > ul > li > b,.iguru_module_social .soc_icon,.iguru_module_message_box .message_close_button:hover,.iguru_module_counter .counter_value_wrapper,.iguru_module_counter .counter_title,.header_search .header_search-field .search-form,.prev-link-info_wrapper,.next-link-info_wrapper,.item_title a,.share_post-container:hover > a,.single_meta strong,.single_meta .blog-post_share-wrap > span.share_title,.single_meta .single_info-share_social-wpapper > span.share_title,.single_info-share_social-wpapper > span,.wgl_timetabs .timetabs_headings .wgl_tab.active .tab_title,.wgl_timetabs .timetabs_headings .wgl_tab:hover .tab_title,.wgl-theme-header .wgl-sign_in_up_form .learn-press-form p a:hover,.wgl-theme-header .wgl-sign_in_up_form .sign-in-up-tabs li a,.wgl-theme-header .wgl-sign_in_up_form .learn-press-form label,.wgl-theme-header .wgl-sign_in_up_form .learn-press-form-login button:hover,.wgl-theme-header .wgl-sign_in_up_form .learn-press-form-register button:hover,#learn-press-user-profile.guest .learn-press-form button:hover,#learn-press-user-profile.guest label,.lp-user-profile.guest#learn-press-user-profile .learn-press-form-register button:hover,.learnpress .lp-user-profile #learn-press-profile-content .lp-tab-sections .section-tab a,.learnpress .lp-user-profile #learn-press-profile-content .lp-tab-sections .section-tab span,.learnpress .lp-user-profile #learn-press-profile-content .lp-list-table td.column-order-total,.learnpress .sidebar-container .lp-button.button,.learnpress .iguru__instructor .instructor__dashboard .data__value,.learnpress #learn-press-profile-header .profile-name,.single-lp_course .lp-single-course .course-meta .meta_data,.single-lp_course .wishlist-button,.learnpress.learnpress-page .learn-press-pagination .page-numbers,.single-lp_course .course-summary .course-tabs .course-nav-tabs .course-nav a,.learn-press-courses .course .course-content .course-info .course-instructor a:hover,.learn-press-courses .course:hover .course-content .course-title,.wgl-theme-header .log-in.learnpress .learn-press-message,.learn-press-courses .course .course-meta .lp-course-buttons .lp-button,.checkout.learnpress-page #learn-press-order-review table td.course-total,.checkout.learnpress-page #learn-press-order-review table tr.cart-subtotal td,.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-tabs .vc_tta-panels-container .vc_tta-panels .vc_tta-panel:not(.vc_active):hover .vc_tta-panel-heading .vc_tta-panel-title,.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab > a,.wgl_portfolio_item-wrapper .portfolio_link,.wgl_portfolio_item-wrapper.fade_out_animation.no-featured-img .title,.inside_image .wgl_portfolio_item-meta .post_cats a:hover,.under_image .wgl_portfolio_item-meta .post_cats a:hover,.wgl_portfolio_single-item .portfolio-category:hover,body .widget_wgl_posts .recent-posts-widget .post_title a,.widget.iguru_widget ul li a,.widget_product_search .woocommerce-product-search:after,.widget_categories.widget ul li a,.widget_product_categories.widget ul li a,.widget_recent_comments.iguru_widget .comment-author-link a,.widget_recent_comments.iguru_widget .comment-author-link,.wgl-theme-header ul.menu > li.mega-menu > ul.sub-menu > li.menu-item,.wgl-pagination .page .page-numbers,.wgl_module_title.item_title .carousel_arrows a span:after,.wgl_module_team.info_under_image .team-department,ul.wp-block-archives.wp-block-archives-list li a,ul.wp-block-categories.wp-block-categories-list li,ul.wp-block-latest-posts li a {color: #2c2c2c;}.iguru_module_title .carousel_arrows a span,.wgl_module_team .overlay,#learn-press-content-item #course-item-content-header {background: #2c2c2c;}.wgl_portfolio_item-wrapper.inside_image.fade_out_animation .overlay,.iguru_module_infobox.infobox_alignment_left.title_divider .infobox_title:before,.iguru_module_infobox.infobox_alignment_right.title_divider .infobox_title:before,.iguru_module_lp_cats .cat_wrapper,.learnpress .iguru__instructor .instructor__dashboard > :not(:last-child):after,.learnpress #learn-press-profile-nav .learn-press-tabs > li,.learnpress #learn-press-profile-nav .learn-press-tabs > li.has-child ul.profile-tab-sections {background-color: #2c2c2c;}.iguru_module_title .carousel_arrows a span:before {border-color: #2c2c2c;}.single-lp_course .course-tab-panel-reviews #course-reviews ul li {border-color: rgba(44,44,44,0.1);}blockquote:before,blockquote cite,ul.wp-block-categories.wp-block-categories-list li,ul.wp-block-archives.wp-block-archives-list li,.iguru_widget.widget_nav_menu ul li,.iguru_widget.widget_pages ul li,.iguru_widget.widget_meta ul li,.comments-title .number-comments,.blog-post.format-quote .blog-post_quote-text:before,.blog-post.format-quote .blog-post_quote-author,.blog-post_meta-wrap,.blog-post_content .meta-wrapper,.blog-post .blog-post_likes-wrap .wgl-likes,.page_404_wrapper .banner_404 span,.isotope-filter a,.iguru_module_double_headings .dlh_subtitle,.iguru_module_counter .counter_title,.iguru_module_flipbox .flipbox_front .flipbox_title,.iguru_module_pricing_plan .pricing_plan_wrap .pricing_price_wrap,.iguru_module_lp_cats .cat_counter,.iguru_module_countdown .countdown-section .countdown-period,.learn-press-courses .course .cat-links a,.single-lp_course .wgl-course-essentials .title,.single-lp_course .course-summary .course-meta .meta_title,.single-lp_course .course-tab-panel-reviews .course-rate .average .rating,.widget_wgl_posts.widget .recent-posts-widget .meta-wrapper span,.widget_categories ul li a,.widget_product_categories ul li a,.widget_archive.widget a,.widget_archive.widget .post_count,.widget .widget-title .widget-title__text {font-family: Quicksand;}.wgl-theme-header .wgl-sticky-header .header_search {height: 100px !important;}#scroll_up {background-color: #00bda6;color: #ffffff;}.primary-nav>div>ul,.primary-nav>ul,.sitepress_container > .wpml-ls li,.primary-nav ul li.mega-menu-links > ul > li {font-family: Muli;font-weight: 700;line-height: 30px;font-size: 16px;}.primary-nav ul li ul,.wpml-ls,.sitepress_container > .wpml-ls ul ul li,.primary-nav ul li div.mega-menu-container {font-family: Muli;font-weight: 600;line-height: 30px;font-size: 16px;}.wgl-theme-header .header_search-field,.primary-nav ul li ul,.primary-nav ul li div.mega-menu-container,.wgl-theme-header .woo_mini_cart,.wpml-ls-legacy-dropdown .wpml-ls-current-language .wpml-ls-sub-menu {color: #ffffff;background-color: rgba(36,41,55,1);}.primary-nav ul li ul li > a > span {background-color: rgba(36,41,55,1);}.mobile_nav_wrapper,.wgl-menu_outer,.mobile_nav_wrapper .primary-nav ul li ul.sub-menu,.mobile_nav_wrapper .primary-nav ul li.mega-menu-links > ul.mega-menu > li > ul > li ul,.mobile_nav_wrapper .primary-nav ul li.mega-menu-links > ul.mega-menu > li > ul {color: #5f5f5f;background-color: rgba(255,255,255,1);}.wgl-theme-color,#comments .commentlist .comment .stand_comment .meta-wrapper .comment-edit-link:hover,#comments .comment-reply-link:hover,a,body ol > li:before,blockquote cite a,button:not(:hover),button:focus,button:active,h3#reply-title a:hover,input[type="submit"].button_alt:hover,.author-info_social-wrapper,.page_404_wrapper .banner_404,.wgl-header-row-section_top a:hover,.button-read-more:hover,.blog-post_link .link_post:before,.blog-post_meta-categories a,.blog-post_meta-categories span,.blog-post_title i,.blog-style-standard .blog-post:hover .blog-post_wrapper .blog-post_meta_info .meta-wrapper span,.blog-post.format-standard.link .blog-post_title:before,.blog-post_cats span,.blog-post_meta-wrap :before,.primary-nav ul li ul li.current-menu-ancestor.current-menu-parent > a:after,.mobile_nav_wrapper .primary-nav ul li ul .menu-item.current-menu-item > a,.mobile_nav_wrapper .primary-nav ul ul li.menu-item.current-menu-ancestor > a,.mobile_nav_wrapper .primary-nav > ul > li.current-menu-item > a,.mobile_nav_wrapper .primary-nav > ul > li.current_page_item > a,.mobile_nav_wrapper .primary-nav > ul > li.current-menu-ancestor > a,.mobile_nav_wrapper .primary-nav > ul > li.current-menu-parent > a,.mobile_nav_wrapper .primary-nav > ul > li.current_page_parent > a,.mobile_nav_wrapper .primary-nav > ul > li.current_page_ancestor > a,.calendar_wrap thead,.copyright a:hover,.comment_author_says a:hover,.dropcap,.footer .wpcf7 input[type="submit"]:hover,.load_more_wrapper .load_more_item:hover,.load_more_wrapper .load_more_item:before,.load_more_works:hover,.header_search .header_search-button > i:hover,.header_search-field .search-form:after,.page_404_wrapper .iguru_404_button .wgl_button_link:hover,.mc_form_inside #mc_signup_submit:hover,.share_link span.fa:hover:before,.share_post span.fa:hover:before,.share_post-container,.single_team_page .team-single_speaches-info .speech-info_desc span,.single_team_page .team-info_wrapper .team-info_item a:hover,.single-member-page .member-icon:hover,.single-member-page .team-link:hover,.single_team_page .team-single_speaches-info .speech-info_day,.single_team_page .team-info_icons a:hover,.single_portfolio-wrapper .single_post_info .wgl-likes a:hover,.blog-post_meta-wrap,.team-icons .member-icon:hover,.vc_wp_custommenu .menu .menu-item.current-menu-item > a,.vc_wp_custommenu .menu .menu-item.current-menu-ancestor > a,.wpml-ls a:hover,.wpml-ls-legacy-dropdown .wpml-ls-current-language:hover > a,.wpml-ls-legacy-dropdown .wpml-ls-current-language a:hover,.wgl_portfolio_item-meta a:hover,.wgl_timetabs .timetabs_headings .wgl_tab.active .tab_subtitle,.wgl_timetabs .timetabs_headings .wgl_tab:hover .tab_subtitle,.wgl_portfolio_category-wrapper a:hover,.wgl_module_team .team-item_info .team-item_titles .team-title:hover,.wpb-js-composer .vc_row .vc_tta.vc_general .vc_active .vc_tta-panel-title > a:before,.wgl-social-share_pages.hovered_style ul li a:hover,.wpcf7 .wpcf7-response-output.wpcf7-mail-sent-ok,.iguru_submit_wrapper:hover > i,.iguru_custom_button i,.iguru_custom_text a,.iguru_module_button .wgl_button_link:hover,.iguru_module_counter .counter_icon,.iguru_module_demo_item .di_button a:hover,.iguru_module_demo_item .di_title_wrap a:hover .di_title,.iguru_module_demo_item .di_title-wrap .di_subtitle,.iguru_module_social .soc_icon:hover,.iguru_twitter a,.iguru_module_testimonials.type_author_top_inline .testimonials_meta_wrap:after,.iguru_module_testimonials .testimonials_status,.iguru_module_circuit_services .services_subtitle,.iguru_module_circuit_services .services_item-icon,.iguru_module_flipbox .flipbox_front .flipbox_front_content,.iguru_module_services_3 .services_icon_wrapper,.iguru_module_services_4 .services_icon,.iguru_module_services_4:hover .services_number,.iguru_module_time_line_horizontal .tlh_check_wrap,.iguru_module_progress_bar .progress_value_wrap,.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab:not(.vc_active):hover > a,.prev-link_wrapper .no_image:after,.next-link_wrapper .no_image:after,.prev-link_wrapper .info_wrapper > a:hover:before,.next-link_wrapper .info_wrapper > a:hover:before,.single_team_page .team-info_wrapper .team-department span,.isotope-filter a:after,.isotope-filter a.active,.isotope-filter a:hover,.wgl_portfolio_item-meta .post_cats a:hover,.blog-style-standard .blog-post_meta-categories span + span:before,.iguru_module_infobox .infobox_icon,.isotope-filter a .number_filter,.under_image .wgl_portfolio_item-title .title a:hover,.blog-post_meta-categories span,.blog-post_meta-categories span:after,.single_type-1 .single_post_info .meta-wrapper :before,.single_type-2 .single_post_info .meta-wrapper :before,ul.wp-block-archives.wp-block-archives-list li a:hover,ul.wp-block-categories.wp-block-categories-list li a:hover,ul.wp-block-categories.wp-block-categories-list li a:hover + .post_count,ul.wp-block-latest-posts li a:hover {color: #00bda6;}#learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item.has-status.passed .course-item-status,#learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item.item-preview .course-item-status:before,.single-lp_course .lp-single-course .course-meta .meta_data a:hover,.learn-press-courses .course .course-info .course-title:hover,.single-lp_course .course-tab-panel-reviews .course-rate .average .rating,.single-lp_course .course-tab-panel-instructor .author-name:hover,.single-lp_course .wishlist-button:before,.single-lp_course .course-summary .course-meta .lp-course-buttons .wishlist-button:hover,.learnpress .lp-user-profile .instructor__spec,.course-tab-panel-curriculum .course-curriculum ul.curriculum-sections .section-content .course-item.has-status.passed .course-item-status,.course-tab-panel-curriculum .course-curriculum ul.curriculum-sections .section-content .course-item.item-preview .course-item-status:before,.single-lp_course .sidebar .wgl-course-essentials .lp-course-buttons .wishlist-button:hover,.checkout.learnpress-page .learn-press-checkout #learn-press-order-review table tr.order-total td,.learn-press-courses .course .course-meta .lp-course-buttons .lp-button:hover,.iguru_widget.widget_lp-widget-popular-courses .course-entry .course-detail .course-meta-data [class=course-meta-field],.iguru_module_lp_cats .cat_counter {color: #00bda6;}header .header-link:hover,.hover_links a:hover {color: #00bda6 !important;}body .widget_nav_menu .current-menu-ancestor > a,body .widget_nav_menu .current-menu-item > a,body .widget_recent_entriesul li .post-date,body .widget_rss ul li .rss-date,body .widget_archive ul li > a:before,.widget.iguru_widget ul li a:hover,.widget.iguru_widget ul li a:hover + .post_count,.widget.iguru_widget ul li a:hover .post_count,.recent-posts-widget .meta-wrapper a,.widget .widget-title:after,.iguru_banner-widget.widget.iguru_widget .banner-widget_text .tags_title:after,.widget.widget_archive ul li a:hover,.widget.widget_recent_comments ul li a,.widget.widget_pages ul li a:hover,.widget.widget_meta ul li a:hover,.author-widget_social a:hover,.widget.widget_recent_comments ul li span.comment-author-link a:hover,.widget.widget_recent_comments ul li a:hover,.widget.widget_recent_entries ul li a:hover,.widget.widget_nav_menu ul li a:hover,.author-widget_img-wrapper,.widget.widget_wgl_posts .recent-posts-widget li > .recent-posts-content .post_title a:hover,.recent-posts-widget .meta-wrapper a,.widget_lp-widget-featured-courses.iguru_widget .course-entry .course-detail .course-title:hover,.widget_lp-widget-popular-courses.iguru_widget .course-entry .course-detail .course-title:hover,.widget_lp-widget-recent-courses.iguru_widget .course-entry .course-detail .course-title:hover {color: #00bda6;}#multiscroll-nav span,#multiscroll-nav li .active span,#comments .comment-reply-link,.primary-nav > ul > li > a > span:after,.single_team_page .team-title:before,.tagcloud a:hover,.wgl_module_team .team-icon,.single_team_page .team-info_icons .team-icon,.single-lp_course .course-tab-panel-curriculum .curriculum-sections .section-title:after,.single-lp_course .course-tab-panel-curriculum .curriculum-sections .section-title:before,.wpml-ls-legacy-dropdown .wpml-ls-sub-menu .wpml-ls-item a span:before,ul.iguru_plus li:after,ul.iguru_plus li:before,ul.iguru_dash li:before {background: #00bda6;}::selection,#comments > h3:after,button:hover,mark,span.highlighter,input[type="submit"].button_alt:not(:hover),ul.iguru_dot li:before,[type="submit"] + .search__icon,.search-course-button + .search__icon,.vc_wp_custommenu .menu .menu-item a:before,.primary-nav ul li.mega-menu.mega-cat div.mega-menu-container ul.mega-menu.cats-horizontal > li.is-active > a,.sitepress_container > .wpml-ls ul ul li a:hover,.blog-post_cats span a,.blog-post_content .meta-wrapper.post-date .date_post,.calendar_wrap caption,.comment-reply-title:after,.iguru_divider .iguru_divider_line .iguru_divider_custom .divider_line,.iguru_module_cats .cats_item-count,.iguru_module_progress_bar .progress_bar,.iguru_module_progress_bar .progress_bar:before,.iguru_module_social.with_bg .soc_icon,.iguru_module_title:after,.iguru_module_title .carousel_arrows a:hover span,.iguru_module_videobox .videobox_link,.iguru_module_ico_progress .progress_completed,.iguru_module_services_3 .services_icon_wrapper .services_circle_wrapper .services_circle,.iguru_module_time_line_horizontal .tlh_check_wrap,.iguru_module_pricing_plan .pricing_header,.load_more_wrapper .load_more_item,.load_more_works,.mc_form_inside #mc_signup_submit,.author-info_wrapper,.wgl-social-share_pages.hovered_style .share_social-icon-plus:before,.wgl-social-share_pages.hovered_style .share_social-icon-plus:after,.wgl-ellipsis span,.wgl-pagination .page:hover a,.wgl-pagination .page .current,.dropcap-bg,.primary-nav .lavalamp-object,.inside_image.offset_animation:before,.wgl_module_title.item_title .carousel_arrows a:hover,.wgl_timetabs .timetabs_headings .wgl_tab.active:after,.wgl-social-share_pages.standard_style a:before,.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panel.vc_active .vc_tta-panel-heading,.wpb-js-composer .wgl-container .vc_row .vc_toggle.vc_toggle_active .vc_toggle_title,.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-tabs .vc_tta-panels-container .vc_tta-panels .vc_tta-panel:not(.vc_active):hover .vc_tta-panel-heading .vc_tta-panel-title,.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-tabs .vc_tta-panels-container .vc_tta-panels .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title,.wpb-js-composer .wgl-container .vc_row .vc_toggle:hover .vc_toggle_title,.learnpress .course-curriculum .curriculum-sections .section-content .course-item:before {background-color: #00bda6;}.wgl-theme-header .log-in.learnpress .log-link:hover,.wgl-theme-header .wgl-sign_in_up_form .learn-press-form-login button:not(:hover),.wgl-theme-header .wgl-sign_in_up_form .learn-press-form-register button:not(:hover),#learn-press-user-profile.guest .learn-press-form-login button:not(:hover),#learn-press-content-item .learn-press-message:before,#learn-press-content-item .answer-options .answer-option input[type="checkbox"]:checked ~ .option-title:before,#learn-press-content-item .answer-options .answer-option input[type="radio"]:checked ~ .option-title:before,#learn-press-content-item #course-item-content-header .form-button.lp-button-back button:hover,#learn-press-user-profile.guest .learn-press-form-register button:not(:hover),.learn-press-courses .course .cat-links a:hover,.single-lp_course .wgl-course-essentials .title,.single-lp_course .course-summary .course-meta .lp-course-buttons .lp-button,.single-lp_course .course-summary .course-meta .lp-course-buttons button:hover,.learnpress .lp-user-profile.iguru__instructor .instructor__socials .social-link,.learnpress .lp-user-profile #learn-press-profile-content .lp-list-table thead th,.single-lp_course .lp-label.label-enrolled,.single-lp_course .lp-label.label-started,.single-lp_course .learn-press-progress .progress-bg .progress-active,.single-lp_course .learn-press-course-results-progress .course-progress .lp-course-status .grade.passed,.checkout.learnpress-page .learn-press-checkout .checkout-review-order table thead th,.learn-press-courses .course .course-meta .lp-course-buttons .lp-button,.lp-user-profile.current-user #learn-press-profile-nav:hover #profile-mobile-menu {background-color: #00bda6;}aside > .widget + .widget:before,ul.wp-block-categories.wp-block-categories-list li:before,.widget_pages.iguru_widget ul li:before,.widget_categories ul li:before,.widget_product_categories ul li:before,.widget .calendar_wrap table td#today:before,.widget .calendar_wrap tbody td > a:before,.widget .counter_posts,.widget.widget_pages ul li a:before,.widget.widget_nav_menu ul li a:before,.widget_nav_menu .menu .menu-item:before,.widget_postshero .recent-posts-widget .post_cat a,.widget_categories ul li > a:before,.widget_meta ul li > a:before,.widget_archive ul li > a:before,.iguru_banner-widget.widget .banner-widget_button:hover span {background-color: #00bda6;}input[type="submit"].button_hover_fill:hover,.iguru_404_search .search-button:hover + .search__icon,.blog-post_meta-date,.iguru_module_carousel.navigation_offset_element .slick-prev:hover,.iguru_module_carousel.navigation_offset_element .slick-next:hover,.iguru_module_demo_item .di_button a,.iguru_module_button.wgl_button:not(.btn-gradient) .wgl_button_link,.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panel:hover .vc_tta-panel-heading,.next-link:hover,.prev-link:hover {border-color: #00bda6;background: #00bda6;}body input:not([type='checkbox']):not([type='submit']):focus,body input:not([type='checkbox']):not([type='submit']):active,ul.iguru_check li:before,button,select:focus,select:active,textarea:focus,textarea:active,.iguru_module_title .carousel_arrows a:hover span:before,input[type="submit"].button_alt,.load_more_works,.load_more_wrapper .load_more_item,.author-info_social-link:after,.single_info-share_social-wpapper .share_link .share-icon_animation,.single-team .single_team_page .team-image,.inside_image.offset_animation:before,.iguru_module_videobox .videobox_link,.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-tabs .vc_tta-panels-container .vc_tta-panels .vc_tta-panel.vc_active .vc_tta-panel-heading .vc_tta-panel-title,.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-accordion .vc_tta-panels-container .vc_tta-panel.vc_active .vc_tta-panel-heading,.iguru_module_products_special_cats .product_special_cats-image_wrap:before,.iguru_module_carousel.pagination_circle .slick-dots li button,.footer .wpcf7 input[type="submit"]:hover,.learnpress .lp-course-buttons button,.learnpress .lp-quiz-buttons button,#learn-press-content-item button,#learn-press-course-tabs button,#course-item-content-header button,#review-form button,.learnpress.learnpress-page .learn-press-pagination .page-numbers li .current,.learnpress.learnpress-page .learn-press-pagination .page-numbers li .page-numbers:hover,#learn-press-content-item .answer-option input[type="checkbox"]:after,#learn-press-content-item .answer-options .answer-option input[type="radio"]:after,.iguru_widget.widget_lp-widget-featured-courses .course-entry .course-detail .course-meta-data .course-meta-field,.iguru_widget.widget_lp-widget-recent-courses .course-entry .course-detail .course-meta-data .course-meta-field,.iguru_widget ul li .lp-label,.author-widget_social a span,.widget.iguru_widget.iguru_banner-widget .banner-widget_button.button-read-more,.content-item-summary .quiz-result .result-grade .result-achieved {border-color: #00bda6;}.theme_color_shadow {box-shadow: 5px 6px 25px 0px rgba(0,189,166,0.08);}.wgl_portfolio_item-wrapper.outline_animation .overlay,.wgl_portfolio_item-wrapper.zoom_in_animation.gallery_type:hover .overlay {box-shadow: inset 0px 0px 0px 10px rgba(0,189,166,1);}.wgl-social-share_pages.standard_style a:hover:before {box-shadow: 0px 9px 30px 0px rgba(255,109,52,0.4);}.wgl-secondary-color,a:hover .wgl-icon,blockquote:before,input[type="submit"]:hover,.primary-nav ul li ul li:hover > a > span,.primary-nav ul li ul li:hover > a > i,.primary-nav ul li ul li.current-menu-item > a > span,.primary-nav ul li ul li.current-menu-item > a > i,.primary-nav ul li ul li.current_page_item > a > span,.primary-nav ul li ul li.current_page_item > a > i,.blog-post_title a:hover,.blog-post_link .link_post:hover,.blog-post.format-quote .blog-post_quote-text:before,.blog-post.format-link .link_post:before,.blog-style-standard .blog-post_info-wrap,.blog-posts .blog-style-medium_img .blog-post_info-wrap,.blog-posts .blog-style-tiny_img .blog-post_info-wrap,.single_type-1 .blog-post .wgl-views:hover:before,.single_type-1 .blog-post .comments_post:hover :before,.single_type-2 .blog-post .wgl-views:hover:before,.single_type-2 .blog-post .comments_post:hover :before,.blog-post_meta-categories a:hover,.button-read-more,.author_post a:hover,#learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item.item-locked .course-item-status:before,.single-lp_course .course-summary .course-meta .meta_title,.learn-press-courses .course:hover .course-meta :before,.learn-press-courses .course:hover .course-meta :after,.learn-press-courses .course:hover .course-content .course-meta.grid :before,.learn-press-courses .course:hover .course-content .course-meta.grid :after,.learnpress .lp-user-profile.iguru__instructor .instructor__dashboard .data__title,.learnpress #learn-press-profile-nav .learn-press-tabs li:hover:not(.active) > a,.learnpress #learn-press-profile-nav .learn-press-tabs li.active > a,.single-lp_course .lp-single-course .course-nav-tabs .course-nav:hover a,.widget .widget-title .widget-title__text,.iguru_module_testimonials .testimonials_item:before,.iguru_module_testimonials .testimonials_position,.iguru_module_counter .counter_value_wrapper,.iguru_module_pricing_plan .pricing_desc > span,.iguru_module_double_headings .dlh_subtitle,.wgl_module_team .team-department,.wgl_portfolio_item-meta .post_cats,.wgl_portfolio_item-meta .post_cats a + a:before,.wgl-menu-module .wgl-menu-module_link-wrapper:after,.wgl_portfolio_item-cats,.wgl_portfolio_item-cats a + a:before,.course-tab-panel-curriculum .course-curriculum ul.curriculum-sections .section-content .course-item.item-locked .course-item-status:before,.course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link,.content-item-summary .quiz-result.failed .result-achieved,.content-item-summary .quiz-result.failed .result-message strong {color: #ff6d34;}.slick-dots li button,.iguru_module_carousel.pagination_circle .slick-dots li:hover button,span.highlighter.secondary,.wgl-theme-header .log-in.learnpress .log-link,ul.iguru_dot.secondary li:before,ul.iguru_plus.secondary li:after,ul.iguru_plus.secondary li:before {background: #ff6d34;}input[type="submit"]:not(:hover),.iguru_author-widget.iguru_widget .author-widget_wrapper,.iguru_404_search .search__icon,.dropcap-bg.secondary,.blog-post_wrapper .blog-post_media .iguru_module_videobox .videobox_link,.primary-nav > ul > li > a > span:before,.prev-link_wrapper .info_wrapper .image_prev:before,.next-link_wrapper .info_wrapper .image_next:before,.search-button:hover + .search__icon,.iguru_module_carousel .slick-arrow,.iguru_module_carousel.pagination_circle_border .slick-dots li.slick-active button,.iguru_module_carousel.pagination_line .slick-dots li button:before,.iguru_module_carousel.pagination_square .slick-dots li,.iguru_module_carousel.pagination_circle .slick-dots li.slick-active button:before,.wgl-theme-header .wgl-sign_in_up_form .sign-in-up-tabs li.active,.learn-press-courses .course .cat-links a,.single-lp_course .course-tab-panel-reviews .precise .rating,.single-lp_course .sidebar .wgl-course-essentials .lp-course-buttons,.single-lp_course .lp-single-course .course-nav-tabs .course-nav.active,.learnpress #learn-press-profile-content .lp-tab-sections .section-tab.active,.learnpress #learn-press-profile-content .lp-tab-sections .section-tab:hover,.wpb-js-composer .wgl-container .vc_row .vc_general.vc_tta.vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active,.iguru_banner-widget.widget .banner-widget_button span {background-color: #ff6d34;}input[type="submit"],ul.iguru_check.secondary li:before,.iguru_module_carousel.pagination_circle_border .slick-dots li button {border-color: #ff6d34;}input[type="submit"].button_alt.button_hover_fill:hover {border-color: #ff6d34;background-color: #ff6d34;}.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-box .join-links .btn,.vczapi-list-zoom-meetings .vczapi-list-zoom-meetings--item__details .start-date,.vczapi-list-zoom-meetings .vczapi-list-zoom-meetings--item__details .hosted-by,.vczapi-list-zoom-meetings--pagination .page-numbers,.vczapi-pagination .page-numbers {font-family: Muli;}.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-content .dpn-zvc-sidebar-content-list span:first-child,.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-box .dpn-zvc-timer .dpn-zvc-timer-cell,.vczapi-list-zoom-meetings--pagination .page-numbers,.vczapi-pagination .page-numbers{color: #2c2c2c;}.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-timer .dpn-zvc-timer-cell-number,.vczapi-list-zoom-meetings .list-duration,.vczapi-list-zoom-meetings .vczapi-list-zoom-meetings--item__details .start-date:before,.vczapi-list-zoom-meetings .vczapi-list-zoom-meetings--item__details__meta a:hover h3 {color: #00bda6;}.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-box .join-links .btn.btn-join-link,.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-box .join-links .btn.btn-start-link:hover,.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-box .dpn-zvc-timer .dpn-zvc-meeting-ended,.vczapi-list-zoom-meetings--pagination .page-numbers.current,.vczapi-pagination .page-numbers.current,.vczapi-list-zoom-meetings--pagination .page-numbers:hover,.vczapi-pagination .page-numbers:hover {background-color: #00bda6;}.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-tile,.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-box .join-links .btn.btn-join-link:hover,.dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-box .join-links .btn.btn-start-link,.vczapi-list-zoom-meetings .vczapi-list-zoom-meetings--item__details .list-categories span {background-color: #ff6d34;}.footer .mc4wp-form-fields input[type="submit"]:hover,.footer .mc4wp-form-fields input[type="submit"]:focus,.footer .mc4wp-form-fields input[type="submit"]:active,.footer_top-area .footer-link:before,.footer_top-area .widget.widget_archive ul li > a:hover,.footer_top-area .widget.widget_categories ul li > a:hover,.footer_top-area .widget.widget_pages ul li > a:hover,.footer_top-area .widget.widget_meta ul li > a:hover,.footer_top-area .widget.widget_recent_comments ul li > a:hover,.footer_top-area .widget.widget_recent_entries ul li > a:hover,.footer_top-area .widget.widget_nav_menu ul li > a:hover,.footer_top-area .widget.widget_wgl_posts .recent-posts-widget li > .recent-posts-content .post_title a:hover,.footer ul li:before {color: #00bda6;}.footer_top-area .footer-link:hover{color: #00bda6 !important;}.footer_top-area .widget-title,.footer_top-area .widget-title .rsswidget,.footer_top-area .widget-title + ul .rsswidget,.footer_top-area .widget.widget_pages ul li a,.footer_top-area .widget.widget_nav_menu ul li a,.footer_top-area .widget.widget_wgl_posts .recent-posts-widget li > .recent-posts-content .post_title a,.footer_top-area .widget.widget_archive ul li > a,.footer_top-area .widget.widget_categories ul li > a,.footer_top-area .widget.widget_pages ul li > a,.footer_top-area .widget.widget_meta ul li > a,.footer_top-area .widget.widget_recent_comments ul li > a,.footer_top-area .widget.widget_recent_comments ul li .comment-author-link,.footer_top-area .widget.widget_recent_comments ul li .comment-author-link a,.footer_top-area .widget.widget_recent_entries ul li > a,.footer_top-area .widget.widget_archive ul li:before,.footer_top-area .widget.widget_meta ul li:before,.footer_top-area .widget.widget_recent_comments > ul > li:before,.footer_top-area .widget.widget_recent_entries > ul > li:before,.footer_top-area .widget.widget_categories ul li:before,.footer_top-area h1,.footer_top-area h2,.footer_top-area h3,.footer_top-area h4,.footer_top-area h5,.footer_top-area h6,.footer_top-area strong {color: #ffffff;}.footer_top-area{color: #cccccc;}.footer_top-area .widget.widget_archive ul li:after,.footer_top-area .widget.widget_pages ul li:after,.footer_top-area .widget.widget_meta ul li:after,.footer_top-area .widget.widget_recent_comments ul li:after,.footer_top-area .widget.widget_recent_entries ul li:after,.footer_top-area .widget.widget_nav_menu ul li:after,.footer_top-area .widget.widget_categories ul li:after {background-color: #cccccc;}.footer .copyright{color: #7b7b7b;}.footer .mc4wp-form-fields input[type="submit"] {background-color: #00bda6;border-color: #00bda6;}body {background: #ffffff;}ol.commentlist:after {background: #ffffff;}h1,h1 a,h1 span {font-family:Muli;font-weight:900;font-size:48px;line-height:60px;}h2,h2 a,h2 span {font-family:Muli;font-weight:900;font-size:42px;line-height:52px;}h3,h3 a,h3 span {font-family:Muli;font-weight:900;font-size:36px;line-height:48px;}h4,h4 a,h4 span {font-family:Muli;font-weight:900;font-size:30px;line-height:40px;}h5,h5 a,h5 span {font-family:Muli;font-weight:900;font-size:24px;line-height:30px;}h6,h6 a,h6 span {font-family:Muli;font-weight:900;font-size:18px;line-height:22px;}@media (max-width: 1200px) {.wgl-site-header,.wgl-theme-header .primary-nav,.wgl-theme-header .wgl-sticky-header,.wgl-social-share_pages {display: none;}.wgl-theme-header .wgl-mobile-header,header.wgl-theme-header .mobile_nav_wrapper .primary-nav {display: block;}.wgl-theme-header .mobile-hamburger-toggle {display: inline-block;padding: 10px 10px 24px !important;}body.mobile_switch_on .wgl-menu_outer {height: calc(100vh - 100px);}.mobile_nav_wrapper .primary-nav {min-height: calc(100vh - 100px - 30px);}}@media (max-width: 1200px) {body .wgl-theme-header.header_overlap {position: relative;z-index: 2;}}@media only screen and (max-width: 768px){.page-header{padding-top:15px !important;padding-bottom:40px!important;height:370px !important;}.page-header_content .page-header_title{color:#ffffff !important;font-size:42px !important;line-height:60px !important;}.page-header_content .page-header_breadcrumbs{color:#ffffff !important;font-size:14px !important;line-height:24px !important;}}</style>
+<link rel="stylesheet" id="course-review-css" href="../wp-content/plugins/learnpress-course-review/assets/css/course-review.css?ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="../wp-includes/css/dashicons.min.css?ver=5.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="learn-press-bundle-css" href="../wp-content/plugins/learnpress/assets/css/bundle.min.css?ver=3.2.8.7" type="text/css" media="all">
+<link rel="stylesheet" id="learn-press-css" href="../wp-content/plugins/learnpress/assets/css/frontend/learnpress.min.css?ver=3.2.8.7" type="text/css" media="all">
+
+<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+<link rel="stylesheet" id="lp-overlay-css" href="../wp-content/plugins/learnpress/assets/css/frontend/lp-overlay.min.css?ver=3.2.8.7" type="text/css" media="all">
+<script type="text/javascript" src="../wp-includes/js/jquery/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/learnpress-wishlist/assets/js/wishlist.js?ver=5.6.2" id="lp-course-wishlist-script-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.3.6" id="tp-tools-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.3.6" id="revmin-js"></script>
+<script type="text/javascript" src="../wp-content/themes/iguru/js/swipebox/js/jquery.swipebox.min.js?ver=5.6.2" id="swipebox-js"></script>
+<script type="text/javascript" src="../wp-includes/js/underscore.min.js?ver=1.8.3" id="underscore-js"></script>
+<script type="text/javascript" id="utils-js-extra">
+/* <![CDATA[ */
+var userSettings = {"url":"\/test\/","uid":"0","time":"1614881477","secure":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-includes/js/utils.min.js?ver=5.6.2" id="utils-js"></script>
+<script type="text/javascript" id="lp-global-js-extra">
+/* <![CDATA[ */
+var lpGlobalSettings = {"url":"http:\/\/blankslatetechnology.com\/test\/courses\/web-design-wireframes-to-prototypes\/","siteurl":"http:\/\/blankslatetechnology.com\/test","ajax":"http:\/\/blankslatetechnology.com\/test\/wp-admin\/admin-ajax.php","theme":"iguru","localize":{"button_ok":"OK","button_cancel":"Cancel","button_yes":"Yes","button_no":"No"},"show_popup_confirm_finish":"yes"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/learnpress/assets/js/global.min.js?ver=3.2.8.7" id="lp-global-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/learnpress/assets/js/dist/utils.min.js?ver=3.2.8.7" id="lp-utils-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/learnpress/assets/src/js/vendor/watch.min.js?ver=3.2.8.7" id="watch-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/learnpress/assets/js/vendor/plugins.all.min.js?ver=3.2.8.7" id="lp-plugins-all-js"></script>
+<link rel="https://api.w.org/" href="../wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.6.2">
+<link rel="canonical" href="../courses/web-design-wireframes-to-prototypes/">
+<link rel="shortlink" href="../?p=1540">
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed?url=http%3A%2F%2Fblankslatetechnology.com%2Ftest%2Fcourses%2Fweb-design-wireframes-to-prototypes%2F">
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed?url=http%3A%2F%2Fblankslatetechnology.com%2Ftest%2Fcourses%2Fweb-design-wireframes-to-prototypes%2F&#038;format=xml">
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+<meta name="generator" content="Powered by Slider Revolution 6.3.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+<style type="text/css" title="dynamic-css" class="options-output">.wgl-footer{padding-top:100px;padding-right:0;padding-bottom:10px;padding-left:0;}</style>
+<script></script><noscript><style>.wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+</head>
+
+<body class="lp_course-template-default single single-lp_course postid-1540 iguru learnpress learnpress-page wpb-js-composer js-comp-ver-6.5.0 vc_responsive">
+	<header class="wgl-theme-header header_overlap">
+		<div class="wgl-site-header mobile_header_custom">
+			<div class="container-wrapper">
+				<div class="wgl-header-row wgl-header-row-section_top"
+					style="background-color: rgba(24,27,36,1);color: rgba(172,172,174,1);">
+					<div class="wgl-container">
+						<div class="wgl-header-row_wrapper" style="height: 40px;">
+							<div class="position_left_top header_side display_normal v_align_middle h_align_left">
+								<div class="header_area_container">
+									<div class="bottom_header html1_editor header_render_editor header_render">
+										<div class="wrapper"><span style="font-size: 14px; font-weight: 400;"><a
+													href="#">Main Canal Road, Muslim Town Lahore</a></span></div>
+									</div>
+									<div class="delimiter"
+										style="height: 40px;width: 1px;background-color: rgba(172,172,174,0.2);margin-left:30px;margin-right:30px;">
+									</div>
+									<div class="bottom_header html2_editor header_render_editor header_render">
+										<div class="wrapper"><span style="font-size: 14px; font-weight: 400;"><a
+													href="mailto:info@blankslate.pk">info@blankslate.pk</a></span></div>
+									</div>
+								</div>
+							</div>
+							<div class="position_center_top header_side display_normal v_align_middle h_align_left">
+							</div>
+							<div class="position_right_top header_side display_normal v_align_middle h_align_right">
+								<div class="header_area_container">
+	
+									<div class="header_spacing spacer_2" style="width:25px;"></div>
+									<div class="bottom_header html3_editor header_render_editor header_render">
+										<div class="wrapper"><span style="font-size: 12px;">
+												<a href="#"><i class="fa fa-twitter wgl-icon"
+														style="padding: 12.5px;"></i></a>
+												<a href="#"><i class="fa fa-facebook wgl-icon"
+														style="padding: 12.5px;"></i></a>
+												<a href="#"><i class="fa fa-linkedin wgl-icon"
+														style="padding: 12.5px;"></i></a>
+												<a href="#"><i class="fa fa-instagram wgl-icon"
+														style="padding: 12.5px; margin-right: -10px;"></i></a>
+											</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wgl-header-row wgl-header-row-section_middle"
+					style="background-color: rgba(0,0,0,0);border-bottom-width: 1px;border-bottom-color: rgba(255,255,255,0.2);border-bottom-style: solid;color: rgba(255,255,255,1);">
+					<div class="wgl-container">
+						<div class="wgl-header-row_wrapper" style="height: 100px;">
+							<div class="position_left_middle header_side display_normal v_align_middle h_align_left">
+								<div class="header_area_container">
+									<div class="wgl-logotype-container">
+										<a href="../index.html">
+											<img class="default_logo" src="../wp-content/uploads/2019/10/Logo.svg" alt=""
+												style="height:34px;">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="position_center_middle header_side display_normal v_align_middle h_align_center">
+								<div class="header_area_container">
+									<nav class="primary-nav menu_line_enable" style="height: 100px;">
+										<ul id="menu-main" class="menu">
+											<li id="menu-item-3729"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-3729">
+												<a href="../index.html"><span>Home</span></a>
+											</li>
+	
+	
+											<li id="menu-item-3708"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3708">
+												<a href="#"><span>Courses</span></a>
+											</li>
+	
+											<li id="menu-item-3679"
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3679">
+												<a href="#"><span>Blog</span></a>
+											</li>
+	
+											<li id="menu-item-3677"
+												class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-98 current_page_item menu-item-3677">
+												<a href="./contact.html"><span>Contacts</span></a>
+											</li>
+										</ul>
+									</nav>
+									<div class="mobile-hamburger-toggle">
+										<div class="hamburger-box">
+											<div class="hamburger-inner"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wgl-sticky-header header_sticky_shadow" style="background-color: rgba(255,255,255,1);color: #2c2c2c;"
+			data-style="scroll_up">
+			<div class="container-wrapper">
+				<div class="wgl-header-row wgl-header-row-section_middle">
+					<div class="wgl-container">
+						<div class="wgl-header-row_wrapper" style="height: 100px;">
+							<div class="position_left_middle header_side display_normal v_align_middle h_align_left">
+								<div class="header_area_container">
+									<div class="wgl-logotype-container">
+										<a href="../index.html">
+											<img class="default_logo" src="../wp-content/uploads/2019/10/Dark-Logo.svg"
+												alt="" style="height:34px;">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="position_center_middle header_side display_normal v_align_middle h_align_center">
+								<div class="header_area_container">
+									<nav class="primary-nav menu_line_enable" style="height: 100px;">
+										<ul id="menu-main-1" class="menu">
+											<li
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-3729">
+												<a href="../index.html"><span>Home</span></a>
+											</li>
+	
+	
+											<li
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3708">
+												<a href="#"><span>Courses</span></a>
+											</li>
+	
+											<li
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3679">
+												<a href="#"><span>Blog</span></a>
+											</li>
+	
+											<li
+												class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-98 current_page_item menu-item-3677">
+												<a href="./contact.html"><span>Contacts</span><i
+														class="menu-item__plus"></i></a>
+											</li>
+										</ul>
+									</nav>
+									<div class="mobile-hamburger-toggle">
+										<div class="hamburger-box">
+											<div class="hamburger-inner"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wgl-mobile-header" style="background-color: rgba(45, 45, 45, 1); color: #ffffff;">
+			<div class="container-wrapper">
+				<div class="wgl-header-row wgl-header-row-section">
+					<div class="wgl-container">
+						<div class="wgl-header-row_wrapper" style="height: 100px;">
+							<div class="position_left header_side">
+								<div class="header_area_container">
+									<nav class="primary-nav menu_line_enable" style="height: 100px;">
+										<ul id="menu-main-2" class="menu">
+											<li
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-3729">
+												<a href="../index.html"><span>Home</span></a>
+											</li>
+	
+											<li
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3708">
+												<a href="#"><span>Courses</span></a>
+											</li>
+	
+											<li
+												class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3679">
+												<a href="#"><span>Blog</span></a>
+											</li>
+	
+											<li
+												class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-98 current_page_item menu-item-3677">
+												<a href="./contact.html"><span>Contacts</span></a>
+											</li>
+										</ul>
+									</nav>
+									<div class="mobile-hamburger-toggle">
+										<div class="hamburger-box">
+											<div class="hamburger-inner"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="position_center header_side">
+								<div class="header_area_container">
+									<div class="wgl-logotype-container">
+										<a href="../index.html">
+											<img class="default_logo" src="../wp-content/uploads/2019/10/Logo.svg" alt=""
+												style="height:34px;">
+										</a>
+									</div>
+								</div>
+							</div>
+	
+						</div>
+					</div>
+				</div>
+				<div class="mobile_nav_wrapper" data-mobile-width="1200">
+					<div class="container-wrapper">
+						<div class="wgl-menu_outer">
+							<nav class="primary-nav">
+								<ul id="menu-main-3" class="menu">
+									<li
+										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-3729">
+										<a href="../index.html"><span>Home</span></a>
+									</li>
+	
+	
+	
+									<li
+										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3708">
+										<a href="../index.html"><span>Courses</span></a>
+									</li>
+									<li
+										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3679">
+										<a href="../index.html"><span>Blog</span></a>
+									</li>
+									<li
+										class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-98 current_page_item menu-item-3677">
+										<a href="./contact.html"><span>Contacts</span></a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wgl-sign_in_up_form">
+			<div class="tab-login active">
+	
+			</div>
+		</div>
+	</header>
+<div class="page-header page-header_align_center" style="background-color: #103f40; height: 430px; margin-bottom: 40px; padding-top: 82px; padding-bottom: 72px;"><div class="page-header_wrapper"><div class="wgl-container"><div class="page-header_content">
+<div class="page-header_title" style="color: #ffffff; font-size: 48px; line-height: 72px;">Courses</div>
+<div class="page-header_breadcrumbs" style="color: #ffffff; font-size: 16px; line-height: 24px;">
+<div class="breadcrumbs">
+<a href="../index.html" class="home">Home</a> <span class="divider"></span> <a href="../index.html">Courses</a> <span class="divider"></span> <span class="current">Asp.net Core 3 with Azure Angular,Value,react</span>
+</div>
+<!-- .breadcrumbs -->
+</div>
+</div></div></div></div>    <main id="main"><div class="wgl-container"><div class="row"><div id="main-content" class="wgl_col-12">
+
+
+
+<div id="lp-single-course" class="lp-single-course">
+
+	
+	<div id="learn-press-course" class="course-summary">
+	
+
+<div class="course-landing-summary">
+
+	<h1 class="course-title">Asp.net Core 3 with Azure Angular,Value,react</h1>
+<div class="course-meta">
+
+</div>
+
+</div>
+<div class="course-thumbnail">
+	<img width="1170" height="740" src="../wp-content/uploads/2019/10/Module/m4Big.jpg" class="attachment-single_course size-single_course wp-post-image" alt="courses_09" loading="lazy" title="courses_09" 
+	srcset="../wp-content/uploads/2019/10/Module/m4Big.jpg 1170w">
+</div>
+
+
+
+<div id="learn-press-course-tabs" class="course-tabs">
+        <div class="course-tab-panel-overview course-tab-panel active" id="tab-overview">
+
+			
+<div class="course-description" id="learn-press-course-description">
+
+	<p>In forth module you’ll work with Asp.net core 3 with azure angular, vue and react.
+	After learning these technologies you’ll become a full stack developer and your worth will be upto 200k
+	This module consists of 4 products and 1 assignment product.
+	Detailed information about the module is given below
+</p>
+<div class="iguru_module_spacing"><div class="spacing_size spacing_size-initial" style="height:2px;"></div></div>  
+
+<!-- <p style="letter-spacing: -0.2px;">This course builds up concepts one at a time, cementing each new topic with an expertly designed exercise or project to test your knowledge. It includes a huge variety of beautiful exercises, projects, and games that we create together from scratch. Sometimes we mix things up and give you a broken React app and ask you to fix it or optimize the code. Check out the promo video to see a couple of the course exercises. The course culminates in one huge capstone project, which is the largest project I&#8217;ve ever built for any of my online courses. I&#8217;m really excited about it.</p> -->
+<div class="iguru_module_spacing"><div class="spacing_size spacing_size-initial" style="height:26px;"></div></div>  
+
+<div class="course-content">
+<h4>What You`ll Learn on This Section</h4>
+<div class="iguru_module_spacing"><div class="spacing_size spacing_size-initial" style="height:17px;"></div></div>  
+
+<div class="wp-block-columns has-2-columns">
+<ul class="wp-block-column iguru_check">
+	<!-- Accordion 1 -->
+	<div class="accordion" id="accordionDefault">
+		<div class="accordion-item">
+			<h2 class="accordion-header" id="headingDefaultOne">
+			  <button style="border: none !important; background: none !important;" type="button" class="collapsed accordion-button text-dark" data-bs-toggle="collapse" data-bs-target="#collapseDefaultOne" aria-controls="collapseDefaultOne">
+				Project 1- tinder Dating-Application
+			  </button>
+			</h2>
+			<div id="collapseDefaultOne" class="accordion-collapse collapse" aria-labelledby="headingDefaultOne" data-bs-parent="#accordionDefault">
+			  <div class="accordion-body">
+			<ul>
+				<li>Linux – Asp.Net Core Installation on Ubuntu LInux – Install VS Code,</li>
+				<li>Node.ls, Yeoman h Asp.Net Core Generator</li>
+				<li>Linux – Create Your First Console h Web Application</li>
+				<li>Windows – Create Your First Console Application Project .Net CLI Windows – Create Your First</li>
+				<li>Web Application Project VS 2◇19 File Stucture – Project.lson, Appsettings.lson h Global.lson File Structure – Startup.CS</li>
+				<li>Client Side Package Managers Bower h Gulp</li>
+				<li>Client Side Package Management Bundleconfig.json
+				</li>
+				<li>File Structure – wwwroot h MVC 6 Cheat Sheet – New .NET CLI
+				</li>
+				<li>Commands h Software Installation Guide Configure Startup.cs File Dependenies Create Appsettings.json </li>
+				<li>Configure LaunchSettings.json Profile Install h Configure Bower h Gulp Add Application Insights Telemetry Microsoft Azure</li>
+				<li>C# Variables h Data Types C# – Properties h Fields C# Access Modifiers
+				</li>
+				<li>C# Conditional Branching h Looping C# .Net History h C# 8.◇ Learning Objectives
+				</li>
+				<li>C# 8.◇ Initialization of Auto–Properties C# 8.◇ Null Conditional Operator
+				</li>
+				<a style="color: #00bda6 !important; text-decoration: none;" type="button" class=" text-primary" data-bs-toggle="modal" data-bs-target="#modalHeader">Read More...</a>
+
+			</ul>
+			  </div>
+			  <div class="text-start mb-3">
+				<button class="btn  m-5 capstone">Capstone Project</button>
+			  </div>
+			</div>
+		  </div>
+	</div>
+	
+	  <!-- Accordion 2 -->
+	  <div class="accordion" id="accordionDefault">
+	  <div class="accordion-item">
+		<h2 class="accordion-header" id="headingDefaultTwo">
+		  <button style="border: none !important; background: none !important;" type="button" class="collapsed accordion-button text-dark" data-bs-toggle="collapse" data-bs-target="#collapseDefaultTwo" aria-controls="collapseDefaultTwo">
+			Project 2 - Facebook application
+		  </button>
+		</h2>
+		<div id="collapseDefaultTwo" class="accordion-collapse collapse" aria-labelledby="headingDefaultTwo" data-bs-parent="#accordionDefault">
+		  <div class="accordion-body">
+			<ul>
+				<li>Angular h .Net Core – Modify Folder Structure h Login Component</li>
+				<li>Angular h .Net Core – Login Api Service Angular h .Net Core – Login Typescript Class
+					Angular h .Net Core – Injectable Login Authentication Service
+				</li>
+				<li>Angular h .Net Core – App Module Angular h .Net Core – App Component Angular h .Net Core – Recap Login Angular h .Net Core – Login Success Microsoft Azure – Create Account Microsoft Azure – Create paas web app service
+				</li>
+				<li>Microsoft Azure – Azure Instance Visual Studio Cloud Explorer Microsoft Azure – Create Sql Server Database
+				</li>
+				<li>Add Production Connection String to the Appsettings.json
+				</li>
+				<li>Microsoft Azure – EF Migration to Azure Sql database
+				</li>
+				<li>Microsoft Azure – Publish Website Microsoft Azure – App Deployed Microsoft Azure – Facebook Identifier Microsoft Azure – Facebook URL Microsoft Azure – Authentication Successful
+				</li>
+				<li>Lab 2 ¦– Azure Functions. Lab 3¦– Azure storage (Blobs,Table,File and Queue). Lab 4¦– Azure Cosmos DB.
+				</li>
+				<li>Lab 5¦ – Microservices h Azure Fabric in 9◇ Minutes.
+				</li>
+				<li>Lab 8 ¦– Azure Queues , visibility timeouts , Peek h De–Queue.
+				</li>
+				<li>Lab 12 – Microservices using Docker and Azure.
+					Project files in the DotNet Web API Differences between a .Net Core 2.2 Web API template and .Net Core 3.◇ template Running the DotNet Core application Environment settings and using dotnet watch
+				</li>
+				<li>Angular 4 + CRUD – Dashboard Service Angular 4 + CRUD – Dashboard Component
+				</li>
+				<li>Creating the first Model and DataContext Creating the Database using Entity Framework migrations
+				</li>
+				<li>Retrieving data from the Database Making our code asynchronous Creating the Angular application using AngularCLI
+				</li>
+				<li>Adding GIT for source control Storing passwords in the Database Creating the User model
+				</li>
+<a style="color: #00bda6 !important; text-decoration: none;" type="button" class=" text-primary" data-bs-toggle="modal" data-bs-target="#modalHeader2">Read More...</a>
+			</ul>
+		  </div>
+		  <div class="text-start mb-3">
+			<button class="btn  m-5 capstone">Capstone Project</button>
+		  </div>
+		</div>
+	  </div>
+	  </div>
+	  <!-- Accordion 3 -->
+	  <div class="accordion" id="accordionDefault" >
+	  <div class="accordion-item">
+		<h2 class="accordion-header" id="headingDefaultThree">
+		  <button style="border: none !important; background: none !important;" type="button" class="collapsed accordion-button text-dark" data-bs-toggle="collapse" data-bs-target="#collapseDefaultThree" aria-controls="collapseDefaultThree">
+			Project 3-Pinterest Application
+		  </button>
+		</h2>
+		<div id="collapseDefaultThree" class="accordion-collapse collapse" aria-labelledby="headingDefaultThree" data-bs-parent="#accordionDefault">
+		  <div class="accordion-body">
+			<ul>
+				<li>Adding the Send Like functionality in the API</li>
+				<li>Retrieving the list of users liked and liked by userAdding the Send like functionality to the SPA
+				</li>
+				<li>Add a private messaging system to the application
+				</li>
+				<li>Creating the Message Entity and relationships
+				</li>
+				<li>Adding the repository methods for the messages
+				</li>
+				<li>Adding the Create Message method in the API
+				</li>
+				<li>Adding the Repository methods for an Inbox, Outbox
+				</li>
+				<li>Creating the Message Controller Adding the Message thread methods to the API
+				</li>
+				<li>Working with the message component in the SPA
+				</li>
+				<li>Designing the Inbox and Outbox template Getting the message thread in the component
+				</li>
+				<li>Designing the message tab chat system Adding Query params to an Angular route Adding the send message functionality and a challenge
+				</li>
+				<li>Resolving the issue with the photos Adding the Delete message functionality to the API
+				</li>
+				<li>Adding the Mark as Read functionality Using NG Build and running the application from the Kestrel server
+				</li>
+				<li>Angular CLI AOT Production build Installing and setting up MySQL Adding additional Database providers Dealing with migrations and multiple Database providers
+				</li>
+				<li>Adding Lazy loading for our related entities Publishing to IIS
+				</li>
+				<a style="color: #00bda6 !important; text-decoration: none;" type="button" class=" text-primary" data-bs-toggle="modal" data-bs-target="#modalHeader3">Read More...</a>
+			</ul>
+		  </div>
+		  <div class="text-start mb-3">
+			<button class="btn  m-5 capstone">Capstone Project</button>
+		  </div>
+		</div>
+	  </div>
+	  </div>
+<!-- Accordion 4 -->
+<div class="accordion" id="accordionDefault">
+<div class="accordion-item">
+	<h2 class="accordion-header" id="headingDefaultFour">
+	  <button style="border: none !important; background: none !important;" type="button" class="collapsed accordion-button text-dark" data-bs-toggle="collapse" data-bs-target="#collapseDefaultFour" aria-controls="collapseDefaultFour">
+		Project 4 - Pizza Hut (Huge Production)
+	  </button>
+	</h2>
+	<div id="collapseDefaultFour" class="accordion-collapse collapse" aria-labelledby="headingDefaultFour" data-bs-parent="#accordionDefault">
+	  <div class="accordion-body">
+		<ul>
+			<li>Returning the lWT Token on successful login
+			</li>
+			<li>Securing our app with Authorization Dotnet user secrets
+			</li>
+			<li>Adding an authorisation policy Adding a Register Handler Testing user registration
+			</li>
+			<li>Adding a Fluent Validator extension for password validation
+			</li>
+			<li>Retrieving the Username from the token in the Http Context
+			</li>
+			<li>Getting the currently logged in user Client side login and register
+			</li>
+			<li>Creating the Typescript interfaces and Axios methods
+			</li>
+			<li>Creating a Mobx user store Creating a MobX root store Creating the Login form
+			</li>
+			<li>Hooking up the Login form to the API Dealing with submission errors Adding home page and NavBar user information
+			</li>
+			<li>Creating a MobX common store Using Axios request interceptor to automatically send the lWT token Persisting login on refresh Adding Modals to our application
+			</li>
+			<li>Adding better error messages to our form Adding a Register form
+			</li>
+			<li>Displaying server validation errors in our form
+			</li>
+			<li>Adding a class to join our Users and Activities
+			</li>
+			<li>Updating the Create Activity handler Testing in Postman
+			</li>
+			<li>Adding AutoMapper Adding AutoMapper profiles
+			</li>
+			<a style="color: #00bda6 !important; text-decoration: none;" type="button" class=" text-primary" data-bs-toggle="modal" data-bs-target="#modalHeader4">Read More...</a>
+		</ul>
+	  </div>
+	  <div class="text-start mb-3">
+		<button class="btn  m-5 capstone">Capstone Project</button>
+	  </div>
+	</div>
+  </div>
+  </div>
+</ul>
+</div>
+</div>
+<div class="iguru_module_spacing"><div class="spacing_size spacing_size-initial" style="height:43px;"></div></div>  
+<h4>Who This Course is for</h4>
+<div class="iguru_module_spacing"><div class="spacing_size spacing_size-initial" style="height:22px;"></div></div>  
+
+<p>This module is for people who have made projects and capstone projects using Node, React, and Gatsby with graphql and WP</p>
+</div>
+
+<div class="wgl-course-essentials">
+	<h3 class="title">Overview</h3>
+	<ul>
+		<li class="lectures">
+			<i class="fas fa-laptop"></i>
+			<span class="label">Projects:</span>
+			<span class="value">4</span>
+		</li>
+		<li class="duration">
+			<i class="fa fa-clock-o"></i>
+			<span class="label">Duration:</span>
+			<span class="value">4 months</span>
+		</li>
+		<li class="applicables">
+			<i class="fas fa-tag"></i>
+			<span class="value">1 Assignments</span>
+		</li>
+	</ul>
+</div>
+        </div>
+
+	
+        <div class="course-tab-panel-curriculum course-tab-panel" id="tab-curriculum">
+
+			
+<div class="course-curriculum" id="learn-press-course-curriculum">
+
+    <div class="curriculum-scrollable">
+
+		
+		
+			Curriculum is empty
+		
+		
+    </div>
+
+</div>
+        </div>
+
+	
+
+
+	
+</div>
+</div>
+
+</div>
+
+</div>
+</div></div></div></main><footer class="footer clearfix" style=" background-color :#1b2133;" id="footer"><div class="footer_top-area widgets_area column_4 aleft"><div class="wgl-container"></div></div>            <div class="copyright" style="background-color:#090a0e;">
+                <div class="wgl-container">                <div class="row" style="padding-top:12px;padding-bottom:12px;">
+                    <div class="wgl_col-12">
+                        <p>Copyright © 2021 BlankSlate by <a href="https://blankslate.pk/" target="_blank" rel="nofollow noopener">BlankSlate</a>. All Rights Reserved</p>                    </div>
+                </div>
+                </div>
+</div></footer>
+
+<div class="modal fade" id="modalHeader" tabindex="-1" role="dialog" aria-labelledby="modalHeaderTitle" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="modalHeaderTitle">Project 1- tinder Dating-Application</h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			<ul>
+				<li>Linux – Asp.Net Core Installation on Ubuntu LInux – Install VS Code,</li>
+				<li>Node.ls, Yeoman h Asp.Net Core Generator</li>
+				<li>Linux – Create Your First Console h Web Application</li>
+				<li>Windows – Create Your First Console Application Project .Net CLI Windows – Create Your First</li>
+				<li>Web Application Project VS 2◇19 File Stucture – Project.lson, Appsettings.lson h Global.lson File Structure – Startup.CS</li>
+				<li>Client Side Package Managers Bower h Gulp</li>
+				<li>Client Side Package Management Bundleconfig.json
+				</li>
+				<li>File Structure – wwwroot h MVC 6 Cheat Sheet – New .NET CLI
+				</li>
+				<li>Commands h Software Installation Guide Configure Startup.cs File Dependenies Create Appsettings.json </li>
+				<li>Configure LaunchSettings.json Profile Install h Configure Bower h Gulp Add Application Insights Telemetry Microsoft Azure</li>
+				<li>C# Variables h Data Types C# – Properties h Fields C# Access Modifiers
+				</li>
+				<li>C# Conditional Branching h Looping C# .Net History h C# 8.◇ Learning Objectives
+				</li>
+				<li>C# 8.◇ Initialization of Auto–Properties C# 8.◇ Null Conditional Operator
+				</li>
+				<li>C# Conditional Branching h Looping C# .Net History h C# 8.◇ Learning Objectives
+				</li>
+				<li>C# 8.◇ Static Classes h Methods C# 8.◇ String Interpolation
+				</li>
+				<li>C# 8.◇ Initialization of Auto–Properties C# 8.◇ Null Conditional Operator
+				</li>
+				<li>C# 8.◇ Non–Nullable h Nullable Reference Types
+				</li>
+				<li>C# 8.◇ Default Interface Implementations C# 8.◇ Try–Catch–Finally Block Await Async
+				</li>
+				<li>C# 8.◇ Expression bodied Methods h Properties
+				</li>
+				<li>MVC h MVC 6 Features h RC2 to 1.◇ Migration
+				</li>
+				<li>MVC – Conceptual Overview MVC – Setup Project Structure
+				</li>
+				<li>MVC Controllers – Conventional Routing MVC Controllers – Attribute Routing MVC Controllers – Action Results h Return Types
+				</li>
+				<li>MVC Controllers – View Rendering Model Data
+					MVC Controllers – View Rendering List Model Data
+				</li>
+				<li>MVC Models – Conceptual Overview MVC Models – VIewModels
+				</li>
+				<li>MVC Models – VIewModels MVC – Dependency Injection
+					MVC Views – Conceptual Overview MVC Views – Layout File
+				</li>
+				<li>MVC Views – _ViewStart File
+				</li>
+				
+				<li>MVC Views – _ViewImports File MVC Views – TagHelpers
+				</li>
+				<li>RC2 to .Net Core 1.◇ Update Installation RC2 vs .Net Core 1.◇ Differences
+				</li>
+				<li>MVC Views – PartialViews MVC Views – ViewComponents
+				</li>
+				<li>Build Our App – Login Page Layout Build Our App – Logged In Page Layout Build Our App – Login Form Creation Build Our App – Form Post
+				</li>
+				<li>EF Core – Conceptual Overview
+				</li>
+				<li>EF Core – Sql Server h Command Tooling package installation (Project.lson)
+				</li>
+				<li>EF Core – Dependency Injection Inject DBContext into Configure Services
+				</li>
+				<li>EF Core – Create Entities for our Data Model
+				</li>
+				<li>EF Core – Create DbContext
+				</li>
+				<li>EF Core – First Migration in VS 2◇19
+				</li>
+				<li>EF Core – .NET CLI EF Core Commands EF Core – Exclude h Include Types, Data Annotations, Fluent Api
+				</li>
+				<li>EF Core – Primary h Composite Keys
+				</li>
+				<li>EF Core – Required h Maxlength Attributes EF Core – Generated Property Values
+				</li>
+				<li>EF Core – Concurrency Tokens EF Core – Indexes
+				</li>
+				<li>EF Core – Table Mappings
+				</li>
+				<li>EF Core – Column Mappings h Data Types EF Core – Computed Columns
+				</li>
+				<li>Build Our App – Login h Register Model Entity Powerpoint
+				</li>
+				<li>Build Our App – Create our Login h Register Entity Model h ViewModel Build Our App – Register our DbContext Build Our App – ResetPassword h ForgotPassword ViewModel
+				</li>
+				<li>Build Our App – Create the Register, Forgot h Reset Password Views
+				</li>
+				<li>Build Our App – Asp.Net Core Identity Core Introduction
+				</li>
+				<li>Build Our App – Asp.Net Core Identity Core Installation
+				</li>
+				<li>Build Our App – Create Our Identity Login h Register Controller
+				</li>
+				<li>Build Our App – Create Our User h LogOff Method in Identity
+				</li>
+				<li>Build Our App – Create Our ResetPassword h Forgot Password Method Logic
+				</li>
+				<li>Create Microsoft Azure Account h SendGrid Email Cloud Service Account Build Our App – Configure User Secrets for Send Grid Api Key h Email Send Class Build Our App – Send Test Email using Send Grid Cloud Email Service
+				</li>
+				<li>Build Our App – Register User,Reset Password,Forgot Password h Confirm Password
+				</li>
+				<li>SMS Account Creation – Twilio
+				</li>
+				<li>Build Our App – Create Sms Interface h Properties related to our Sid h Token Build Our App – Send SMS Test Message using Twilio
+				</li>
+				<li>Create Account – External Login Provider with OAuth2 Facebook
+				</li>
+				<li>Build Our App – Configure Facebook User Secrets h Facebook Autho2 Credentials Build Our App – Build Our External Login Provider To Facebook
+				</li>
+				<li>Powerpoint – Entity Model Diagram for the Profile Context
+				</li>
+				<li>Build Our App – EF Core Context Add Individual, Organization h Hobby Entities
+				</li>
+				
+				<li>Build Our App – DashboardViewModel with our Entities
+				</li>
+				<li>Build Our App – Build our IProfileRepository Class
+				</li>
+				<li>Build Our App – Dashboard Index View Build Our App – Build a lSON API Service Build Our App Api – CRUD Operations – Create
+				</li>
+				<li>Build Our App Api – CRUD Operations – Edit
+				</li>
+				<li>Build Our App Api – CRUD Operations – Delete
+				</li>
+				<li>Build Our App Api – CRUD Operations – Detail
+				</li>
+				<li>Typescript – Installation
+				</li>
+				<li>Typescript – Create your First Typescript File
+				</li>
+				<li>Typescript – Tsconfig.json
+				</li>
+				<li>Typescript – var vs let variable declarations Typescript – Interfaces
+				</li>
+				<li>Typescript – Classes Typescript – Functions Typescript – Enums Typescript – Generics Typescript – Modules Typescript – Namespaces Typescript – Iterators Typescript – Modifiers Typescript – Compile
+				</li>
+				<li>Angular 2 – Definition h Architecture Angular 2 – Angular–Cli Installation Angular 2 – Angular–.NetCore–Spa Generator
+				</li>
+				<li>Angular 2 – Angular Module Definition Angular 2 – File Structure h App.Modules.ts Angular 2 – Angular Components Definition Angular 2 – Angular Components h Class Implementation
+					Angular 2 – Angular Templates Definition Angular 2 – Angular Templates Implementation
+				</li>
+				<li>Angular 2 – Angular Data–Binding Definition
+				</li>
+				<li>Angular 2 – Angular Data–Binding Demo Angular 2 – Angular Input Definition Angular 2 – User Input Onkey Demo Angular 2 – Forms Definition
+				</li>\
+				<li>Angular 2 – Dependency Injection Definition
+				</li>
+				<li>Angular 2 – Http Definition
+				</li>
+				<li>Angular 2 – Promise VS Observable Angular 2 – Http Observable map to lson Filse
+				</li>
+				<li>.Net Core Upgrade – Migrate from the Project.json to the .Csprog File
+				</li>
+				<li>.Net Core Upgrade – Upgrade our Project in VS 2◇19
+				</li>
+				<li>.Net Core Upgrade – Why Microsoft left the project.json fileY
+				</li>
+				<li>.Net Core Upgrade – Upgrade our Project via the .Net CLI
+				</li>
+				<li>.Net Core Upgrade – Project.json vs .Csproj
+				</li>
+				<li>.Net Core Upgrade – Conclusion Angular h .Net Core Integration Angular h .Net Core – Package.json Angular h .Net Core – Tsconfig Angular h .Net Core – Typings Angular h .Net Core – Gulp.js
+				</li>
+				<li>Angular h .Net Core – Add Angular Core Angular h .Net Core – Layout.cshtml Angular h .Net Core – Typescript
+				</li>
+				<li>error suppression
+				</li>
+				<li>Angular h .Net Core – Angular File h Folder Structure
+				</li>
+				
+
+				<li>Angular h .Net Core – Modify Folder Structure h Login Component
+				</li>
+				<li>Angular h .Net Core – Login Api Service Angular h .Net Core – Login Typescript Class</li>
+				<li>Angular h .Net Core – Injectable Login Authentication Service
+				</li>
+				<li>Angular h .Net Core – Login Api Service Angular h .Net Core – Login Typescript Class
+				</li>
+				<li>Angular h .Net Core – Injectable Login Authentication Service
+				</li>
+				<li>Angular h .Net Core – App Module Angular h .Net Core – App Component Angular h .Net Core – Recap Login Angular h .Net Core – Login Success Microsoft Azure – Create Account Microsoft Azure – Create paas web app service
+				</li>
+				<li>Microsoft Azure – Azure Instance Visual Studio Cloud Explorer Microsoft Azure – Create Sql Server Database
+				</li>
+				<li>Add Production Connection String to the Appsettings.json
+				</li>
+				<li>Microsoft Azure – EF Migration to Azure Sql database
+				</li>
+				<li>Microsoft Azure – Publish Website Microsoft Azure – App Deployed Microsoft Azure – Facebook Identifier Microsoft Azure – Facebook URL Microsoft Azure – Authentication Successful
+				</li>
+				<li>Angular 4 + CRUD – Create Api Service Angular 4 + CRUD – Dashboard Typescript class
+				</li>
+				<li>Angular 4 + CRUD – Dashboard Service Angular 4 + CRUD – Dashboard Component
+				</li>
+				<li>Angular 4 + CRUD – Dashboard Model Angular 4 + CRUD – Dashboard Html Lab 1¦– SQL Server on Azure
+				</li>
+				<li>( DTU h EDTU)
+				</li>
+				<li>Lab 2 ¦– Azure Functions. Lab 3¦– Azure storage (Blobs,Table,File and Queue). Lab 4¦– Azure Cosmos DB.
+				</li>
+				<li>Lab 5¦ – Microservices h Azure Fabric in 9◇ Minutes.
+				</li>
+				<li>Lab 6 ¦– Azure tables, Partition and Row keys.
+				</li>
+				<li>Lab 7¦ – Block blobs, Append blobs h Page blobs.
+				</li>
+				<li>Lab 8 ¦– Azure Queues , visibility timeouts , Peek h De–Queue.
+				</li>
+				<li>Lab 9 ¦– Cloud services vs App services. Lab 1◇ ¦– Weblob and background processing.
+				</li>
+				<li>Lab 11 ¦ – Azure DevOps using Azure Pipeline.
+				</li>
+				<li>Lab 12 – Microservices using Docker and Azure.
+				</li>
+				<li>Lab 13 – Azure Virtual Network(VNET) and Network Security Groups(NSG) Creating the DotNet Core WebAPI using the DotNetCLI
+				</li>
+				<li>Project files in the DotNet Web API Differences between a .Net Core 2.2 Web API template and .Net Core 3.◇ template Running the DotNet Core application Environment settings and using dotnet watch
+				</li>
+				<li>Creating the first Model and DataContext Creating the Database using Entity Framework migrations
+				</li>
+				<li>Retrieving data from the Database Making our code asynchronous Creating the Angular application using AngularCLI
+				</li>
+				<li>
+					The Angular bootstrapping and running the Angular app
+				</li>
+				<li>Adding VS Code extensions used in this course
+				</li>
+				<li>Making HTTP requests in Angular Adding CORS support to the API Displaying data from the API on the HTML page
+				</li>
+				<li>Adding Bootstrap and Font–Awesome to our Angular app
+				</li>
+				<li>Adding GIT for source control Storing passwords in the Database Creating the User model
+				</li>
+				<li>The Repository pattern
+				</li>
+				<li>Creating an Interface for the Repository Creating the concrete Auth Repository and Register Method
+				</li>
+				<li>Creating the Login repository method Registering services in the Startup class Creating the Register method in our Auth Controller
+				</li>
+				<li>Using DTOs (Data Transfer Objects) Validation in the API
+				</li>
+				<li>Token Authentication
+				</li>
+				<li>Creating the Login method in the API Using the Authentication middleware Safe storage of secrets
+				</li>
+				<li>Client side login and register
+				</li>
+				<li>Creating the Navigation and Login form Introduction to Angular template forms Introduction to Angular Services Injecting the Angular services in our Components
+				</li>
+				<li>Using ‡ngIf to conditionally display HTML Elements
+				</li>
+				<li>Adding a component so users can Register to our site
+				</li>
+				<li>Parent to Child Component communication using Input properties
+				</li>
+				<li>Component Communication Child to Parent using Output properties
+				</li>
+				<li>Adding the register method to the Auth Service
+				</li>
+				<li>Handling exceptions in the API
+				</li>
+				<li>Setting up the Global exception handler in the API
+				</li>
+				<li>Handling errors in Angular
+				</li>
+				<li>Wrapping 3rd party libraries as an Angular service
+				</li>
+				<li>Using the Angular lWT library to improve token handling
+				</li>
+				<li>Using the Angular lWT library to decode tokens
+				</li>
+				<li>Adding Ngx Bootstrap to power our Bootstrap components
+				</li>
+				<li>Bringing some color to our app with a theme from Bootswatch
+				</li>
+				<li>Setting up routing in Angular
+				</li>
+				<li>Setting up our links in the nav component Using routing in our components Protecting our routes with a route guard Protecting multiple routes with a single route guard using dummy routes Extending the API
+				</li>
+				<li>Extending the User Model
+				</li>
+				<li>Exploring Entity Framework migrations Entity Framework Relationships Seeding Data to the Database Creating a new repository for our API Creating the Users Controller
+				</li>
+				<li>Shaping the data to return with DTOs Using AutoMapper
+				</li>
+				<li>Building a great looking User Interface
+				</li>
+				
+				<li>Adding Interfaces to our Typescript code Creating another Angular service Retrieving the Members into the Member List Component
+				</li>
+
+				<li>Creating Member Cards to display on our Member list page
+				</li>
+				<li>Giving our Members some style with CSS Adding animated buttons to the member cards
+				</li>
+				<li>Using Auth◇ lwtModule to send up jwt tokens automatically
+				</li>
+				<li>Creating the Member Detailed View component class
+				</li>
+				<li>Designing the Member detailed view template – left hand side
+				</li>
+				<li>Adding a tabbed panel for the right hand side of the Member detailed page
+				</li>
+				<li>Using Route Resolvers to retrieve data Adding a photo gallery to our application Creating a Member Edit Component Designing the template for the member profile edit page
+				</li>
+				<li>Adding a CanDeactivate route guard Persisting the Member updates
+				</li>
+				<li>Finishing off the Member edit component Adding Photo upload functionality to
+				</li>
+				<li>the application
+				</li>
+				<li>Using Cloudinary as a photo storage solution
+				</li>
+				<li>Creating the Photos controller
+				</li>
+				<li>Testing the Photo upload with Postman Creating the Photo upload component in Angular
+				</li>
+				<li>Adding a 3rd Party File Uploader Configuring the 3rd Party file uploader Adding the Set Main photo functionality to the API
+				</li>
+				<li>Adding the Set Main Photo functionality to the SPA
+				</li>
+				<li>Using the array filter method to provide instant feedback in the SPA
+				</li>
+				<li>Output properties revisited.
+				</li>
+				<li>Adding the main photo to the Nav bar Any to Any component communication in Angular
+				</li>
+				<li>Using BehaviorSubject to add any to any communication to our app.
+				</li>
+				<li>Adding the Delete photo function to the API
+					Adding the Delete Photo functionality to the SPA
+				</li>
+				<li>Reactive Forms in Angular Validation in Reactive forms Custom Validators in Reactive forms
+				</li>
+				<li>Providing Validation feedback to the user Using the Reactive Forms FormBuilder Service
+				</li>
+				<li>Expanding the Registration form Handling Dates in Forms
+				</li>
+				<li>Updating the Register method in the API Completing the Registration implementation
+				</li>
+				<li>Fixing the Photos issue for newly registered users
+				</li>
+				<li>Using a TimeAgo pipe for dates in Angular Using Action Filters
+				</li>
+				<li>Paging in ASP.NET Core Web API Adding a PagedList class
+				</li>
+				<li>Setting up the paging helper classes Implementing pagination in the API Setting up pagination in the SPA Using nix–bootstrap pagination module Filtering in the API
+				</li>
+				
+
+			</ul>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <div class="modal fade" id="modalHeader2" tabindex="-1" role="dialog" aria-labelledby="modalHeaderTitle" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="modalHeaderTitle">Project 2 - Facebook application </h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		 <ul>
+			<li>Angular h .Net Core – Modify Folder Structure h Login Component</li>
+			<li>Angular h .Net Core – Login Api Service Angular h .Net Core – Login Typescript Class
+				Angular h .Net Core – Injectable Login Authentication Service
+			</li>
+			<li>Angular h .Net Core – App Module Angular h .Net Core – App Component Angular h .Net Core – Recap Login Angular h .Net Core – Login Success Microsoft Azure – Create Account Microsoft Azure – Create paas web app service
+			</li>
+			<li>Microsoft Azure – Azure Instance Visual Studio Cloud Explorer Microsoft Azure – Create Sql Server Database
+			</li>
+			<li>Add Production Connection String to the Appsettings.json
+			</li>
+			<li>Microsoft Azure – EF Migration to Azure Sql database
+			</li>
+			<li>Microsoft Azure – Publish Website Microsoft Azure – App Deployed Microsoft Azure – Facebook Identifier Microsoft Azure – Facebook URL Microsoft Azure – Authentication Successful
+			</li>
+			<li>Lab 2 ¦– Azure Functions. Lab 3¦– Azure storage (Blobs,Table,File and Queue). Lab 4¦– Azure Cosmos DB.
+			</li>
+			<li>Lab 5¦ – Microservices h Azure Fabric in 9◇ Minutes.
+			</li>
+			<li>Lab 8 ¦– Azure Queues , visibility timeouts , Peek h De–Queue.
+			</li>
+			<li>Lab 12 – Microservices using Docker and Azure.
+				Project files in the DotNet Web API Differences between a .Net Core 2.2 Web API template and .Net Core 3.◇ template Running the DotNet Core application Environment settings and using dotnet watch
+			</li>
+			<li>Angular 4 + CRUD – Dashboard Service Angular 4 + CRUD – Dashboard Component
+			</li>
+			<li>Creating the first Model and DataContext Creating the Database using Entity Framework migrations
+			</li>
+			<li>Retrieving data from the Database Making our code asynchronous Creating the Angular application using AngularCLI
+			</li>
+			<li>Adding GIT for source control Storing passwords in the Database Creating the User model
+			</li>
+
+			<li>Adding additional filtering parameters to the API
+			</li>
+			<li>Adding filtering functionality to the SPA Sorting results in the API
+			</li>
+			<li>Adding the Sorting functionality to the SPA Adding the 'Likes' functionality from start to finish
+			</li>
+			<li>Configuring the EF relationship so users can like each other
+			</li>
+			<li>Creating the Like entity
+			</li>
+			<li>Adding the Send Like functionality in the API
+			</li>
+			<li>Retrieving the list of users liked and liked by user
+			</li>
+			<li>Adding the Send like functionality to the SPA
+			</li>
+			<li>Creating the Lists component
+			</li>
+			<li>Add a private messaging system to the application
+			</li>
+			<li>Creating the Message Entity and relationships
+			</li>
+			<li>Adding the repository methods for the messages
+			</li>
+			<li>Adding the Create Message method in the API
+			</li>
+			<li>Adding the Repository methods for an Inbox, Outbox
+			</li>
+			<li>Creating the Message Controller Adding the Message thread methods to the API
+			</li>
+			<li>Working with the message component in the SPA
+			</li>
+			<li>Designing the Inbox and Outbox template Getting the message thread in the component
+			</li>
+			<li>Designing the message tab chat system Adding Query params to an Angular route Adding the send message functionality and a challenge
+			</li>
+			<li>Resolving the issue with the photos Adding the Delete message functionality to the API
+			</li>
+			<li>Deleting messages in the SPA
+			</li>
+			<li>Adding the Mark as Read functionality Using NG Build and running the application from the Kestrel server
+			</li>
+			<li>.Net Core 3.◇ – Serving Static Files from the API
+			</li>
+			<li>Angular CLI AOT Production build Installing and setting up MySQL Adding additional Database providers Dealing with migrations and multiple Database providers
+			</li>
+			<li>.Net Core 3.◇ MySQL provider bug workaround
+			</li>
+			<li>Adding Lazy loading for our related entities Publishing to IIS
+			</li>
+			<li>Setting up a Linux server for publishing Publishing the app to Linux
+			</li>
+			<li>HTTPS configuration for Apache Setting up Azure to publish our app Publishing our App to Azure
+				Creating the ASP.NET Core solutions and projects using the DotNet CLI
+			</li>
+			<li>Creating a Domain entity
+			</li>
+			<li>Creating the DbContext and service Adding our first Entity Framework code first migration
+			</li>
+			
+
+			<li>Creating the database
+			</li>
+			<li>Seeding data using Entity Framework fluent configuration
+			</li>
+			<li>Using Dependancy Injection
+			</li>
+			<li>Using create–react–app to create our React application
+			</li>
+			<li>Reviewing the React project files Using Typescript with React Adding React dev tools
+			</li>
+			<li>React Class Components Using React State Fetching data from the API
+			</li>
+			<li>Adding CORS support to the API Adding Semantic UI to our app
+			</li>
+			<li>Clean up and saving our code to source control
+			</li>
+			<li>Building a CRUD application in .Net Core using the CQRS + Mediator pattern Adding the Activity entity
+			</li>
+			<li>Seeding Activity data Commands and Queries – CQRS Introduction to MediatR
+			</li>
+			<li>Creating our first Query handler Creating the Activities API Controller Adding the Details Handler Cancellation Tokens
+			</li>
+			<li>Adding the Create handler
+			</li>
+			<li>Dealing with boilerplate code in our handlers
+			</li>
+			<li>Adding an Edit handler Adding a Delete handler
+			</li>
+			<li>Building a CRUD application in React Working with React Hooks
+			</li>
+			<li>Folder structure in React
+				Getting a list of activities from the API Adding an Activity interface in Typescript Refactoring our class component to use React Hooks
+			</li>
+			<li>Adding the Navigation bar Styling React components Adding the Activity Dashboard Creating the Activity List
+			</li>
+			<li>Adding the Activity Details component Adding the Activity Form component Selecting an individual Activity
+			</li>
+			<li>Adding an edit mode to display the form Adding a create activity mode Initialising the form with data
+			</li>
+			<li>Controlled components in React Handling form submission
+			</li>
+			<li>Fixing issues with the dates in the form Adding the delete functionality
+			</li>
+			<li>Setting up the agent.ts file Listing our activities Updating an Activity
+				</li>
+			<li>Adding a delay to our API methods Adding a loading component
+			</li>
+			<li>Adding a loading indicator for submitting data
+			</li>
+			<li>Isolating the loading indicator on the delete button
+			</li>
+			<li>Setting up a MobX store
+			</li>
+			<li>Refactoring the activity list to use the store Refactoring the select activity function Using Async Await in our methods Refactoring the create activity method MobX computed properties
+			</li>
+			<li>Using an Observable Map Adding the edit activity action
+			</li>
+			
+			<li>Adding the delete activity action Cleaning up our code
+			</li>
+			<li>Enabling MobX strict mode Adding MobX dev tools React Router
+			</li>
+			<li>Setting up React Router Setting up our Routes Adding Links and NavLinks Adding the Details link
+			</li>
+			<li>Getting an Activity from the API Using Route params Navigating via code
+			</li>
+			<li>Routing to the edit form
+			</li>
+			<li>Using a Fully Uncontrolled Component with a key to reset component state Navigating after submission
+			</li>
+			<li>Moving the home page outside of our navigation routes
+			</li>
+			<li>Scrolling to the top of the page on navigation
+			</li>
+			<li>More code clean up Styling the activity list Grouping activities by date
+			</li>
+			<li>Styling the activity list items Creating the Activity Details page
+			</li>
+			<li>Styling the Activity Detailed Page Header Styling the Activity Detailed Info
+			</li>
+			<li>Styling the Activity Detailed Chat and Sidebar components
+			</li>
+			<li>Styling the Activity Form Styling the Home page
+			</li>
+			<li>Error handling and validation Validation in the API
+			</li>
+			<li>Adding validation in the API using Data Annotations
+			</li>
+			<li>Adding validation in the API using Fluent Validation
+			</li>
+			<li>Error handling concepts in our application Error handling strategy
+			</li>
+			<li>Creating a derived Exception class for Rest exceptions
+			</li>
+			<li>Adding Error handling middleware Using our Error handling middleware Using Axios interceptors to catch errors Throwing errors in the client
+			</li>
+			<li>Adding routing functionality to Axios Handling an invalid GUID on a get request Adding toast notifications
+			</li>
+			<li>Setting up React Final Form Creating a reusable Text input field
+			</li>
+			<li>Refactoring the form to use React Final Form
+			</li>
+			<li>Creating a reusable Text Area Input field Creating a reusable Select input field Setting up React Widgets
+			</li>
+			<li>Creating a reusable Date Input field Formatting the dates using Date–FNS Creating separate Date and Time fields Combining Date and Time inputs Initialising the form with data Submitting data to the server
+			</li>
+			<li>Form error handling Form validation
+			</li>
+			<li>Adding the Identity User Entity Configuring Identity in our startup class Seeding users to the database
+			</li>
+			<li>Adding a Login Handler Adding a Base API controller Adding a User API controller Adding a User object
+			</li>
+			<li>lSON Web Tokens introduction Adding the Infrastructure project
+			</li>
+			<li>Adding the lWT Generator interface and class
+			</li>
+			
+			<li>Generating a lWT Token			</li>
+
+
+			<li>Returning the lWT Token on successful login
+			</li>
+			<li>Securing our app with Authorization Dotnet user secrets
+			</li>
+			<li>Securing our app with Authorization Dotnet user secrets
+			</li>
+			<li>Adding an authorisation policy Adding a Register Handler Testing user registration
+			</li>
+			<li>Adding a Fluent Validator extension for password validation
+			</li>
+			<li>Retrieving the Username from the token in the Http Context
+			</li>
+			<li>Getting the currently logged in user Client side login and register
+			</li>
+			<li>Creating the Typescript interfaces and Axios methods
+			</li>
+			<li>Hooking up the Login form to the API Dealing with submission errors Adding home page and NavBar user information
+			</li>
+			<li>Creating a MobX common store Using Axios request interceptor to automatically send the lWT token Persisting login on refresh Adding Modals to our application
+			</li>
+			<li>Adding better error messages to our form Adding a Register form
+			</li>
+			<li>Displaying server validation errors in our form
+			</li>
+			<li>Adding a class to join our Users and Activities
+			</li>
+			<li>Updating the Create Activity handler Testing in Postman
+			</li>
+			<li>Loading related data using Eager loading Adding DTOs to shape our data
+			</li>
+			<li>Adding AutoMapper Adding AutoMapper profiles
+			</li>
+			<li>Configuring AutoMapper mappings Using Lazy Loading to load related data Adding the loin activity feature
+			</li>
+			<li>Adding the remove attendance feature Creating a custom Auth policy Updating our Seed data
+			</li>
+			<li>Adding attendees to our list items Adding attendees to the Detailed view sidebar
+			</li>
+			<li>Adding the IsGoing and IsHost properties to the Activity interface
+			</li>
+			<li>Conditionally rendering the activity detailed header buttons
+			</li>
+			<li>Adding the cancel attendance function Hooking it all up to the API
+			</li>
+			<li>Loose ends Cloudinary settings
+			</li>
+			<li>Adding the interface and class for our Photo Accessor
+			</li>
+			<li>Adding the AddPhoto handler Adding the Domain Entity Adding the Add Photo Handler Adding the Photo API Controller Adding User Profiles feature Adding the Delete photo handler
+			</li>
+			<li>Adding the set main photo functionality Adding the Mapping Profile configuration for User images
+			</li>
+			<li>Adding links and a profile page component Adding the Profile Header component Adding the Profile content component Getting the profile data from the API Displaying User images on the profile page
+			</li>
+			
+			<li>Conditionally rendering the Photo Upload Widget
+			</li>
+			<li>Creating a Photo Upload Widget React Dropzone
+			</li>
+
+			<li>Styling our Dropzone React Cropper
+			</li>
+			<li>Adding the Photo Upload methods to the store
+			</li>
+			<li>Adding the photo upload functionality to the Profile component
+			</li>
+			<li>Adding the set main photo functionality Isolating our loading indicators
+			</li>
+			<li>Adding Delete photo functionality Adding the Comment entity
+			</li>
+			<li>Adding the Comment DTO and mapping Adding the Create comment handler Adding a SignalR hub
+			</li>
+			<li>Configuring Auth for SignalR
+			</li>
+			<li>Adding the SignalR hub connection to the client
+			</li>
+			<li>Connecting to the SignalR hub from our client
+			</li>
+			<li>Adding the Comment functionality to the client
+			</li>
+			<li>Configuring Auth for SignalR
+			</li>
+			<li>Adding the SignalR hub connection to the client
+			</li>
+			<li>Connecting to the SignalR hub from our client
+			</li>
+			<li>Adding the Comment functionality to the client
+			</li>
+			<li>Formatting Dates in words using Date–FNS Using SignalR Groups in the API
+			</li>
+			<li>Using SignalR Groups in the client Adding the UserFollower Entity Adding the Add Follower handler Adding the Delete Following handler Adding a Following API Controller
+			</li>
+			<li>Adding a Profile reader helper class and interface
+			</li>
+			<li>Getting a List of Followings for a user Adding a Custom value resolver for AutoMapper
+				Adding the UI components to show followed users
+				</li>
+			<li>Adding the Follow / Unfollow methods Adding the Follow / Unfollow UI components
+			</li>
+			<li>Getting a list of followings from the API Using MobX reactions to get followers or followings on tab change</li>
+			<li>Paging, Sorting and Filtering Paging our Activity list
+				Refactoring the Activity store list method for paging
+				</li>
+			<li>Adding vertical paging to our activity dashboard
+			</li>
+			<li>Adding infinite scrolling to our activity dashboard
+				Updating the dashboard with Filter component
+				</li>
+			<li>Filtering our Activity List in the API Adding the Filtering methods in the client Updating the Activity Filters UI to allow filtering
+				Adding User Activities filter in </li>
+			<li>Adding User Activities filter in the API Adding User Activities filter in the client Swapping our loading indicator for Placeholders
+			</li>
+			<li>Adding a loading indicator to index.html Adding private routes on the client Adding logout for token expiry
+			</li>
+			<li>Preparing the client application for publishing
+			</li>
+			<li>Building a production version of the React app
+				Serving the production React app from the API server
+			</li>
+			<li>Adding MySQL and configuring a user Continue </li>
+			<li>Adding additional DB providers for Entity Framework
+			</li>
+
+			<li>Swapping the DB for MySQL Publishing the app to Linux – Part 1 Publishing the app to Linux – Part 2 Configuring Apache to use an HTTPS SSL certificate
+			</li>
+			<li>Adding Security headers to our API Adding Content Security Policy to our API Getting an A rating from a SecurityHeaders site scan
+			</li>
+			<li>Setting up Azure for publishing our app Publishing our App to Azure
+			</li>
+			<li>Tweaking the Azure deployment
+			</li>
+			<li>Understanding VuelS Templates How the VuelS Template Syntax and Instance Work Together</li>
+			<li>Understanding and Using Directives Disable Re–Rendering with v–once How to Output Raw HTML</li>
+			<li>Getting Event Data from the Event Object Passing your own Arguments with Events Modifying an Event – with Event Modifiers Listening to Keyboard Events
+			</li>
+			<li>Reacting to Changes with Computed Properties
+			</li>
+			<li>An Alternative to Computed Properties¦ Watching for Changes
+			</li>
+			<li>Saving Time with Shorthands Dynamic Styling with CSS Classes – Using Objects
+			</li>
+			<li>Dynamic Styling with CSS Classes – Using Names
+			</li>
+			<li>Styling Elements with the Array Syntax Using Conditionals and Rendering Lists Conditional Rendering with v–if v–else–if in Vue.js 2.1
+			</li>
+			<li>Using an Alternative v–if Syntax Don't Detach it with v–show Rendering Lists with v–for Getting the Current Index
+			</li>
+			<li>Looping through a List of Numbers Keeping Track of Elements when using v–for
+			</li>
+			<li> Setting up the Support Module 1 Creating the Vue Instance and Styling the Healthbars
+			</li>
+			<li>Showing the Player Controls Conditionally Implementing a "Start Game" Method Implementing a "Attack" Method
+			</li>
+			<li>Write better Code – Time for Refactoring! Implementing a "Special Attack" Implementing a "Heal" Method
+			</li>
+			<li>Finishing the Action Buttons Creating an Action Log Printing the Log (v–for) Finishing the Log</li>
+			<li>Styling the Log Conditionally Wrap Up
+			</li>
+			<li>Using Multiple Vue Instances
+			</li>
+			<li>Accessing the Vue Instance from Outside
+			</li>
+			
+
+		 </ul>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <div class="modal fade" id="modalHeader3" tabindex="-1" role="dialog" aria-labelledby="modalHeaderTitle" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="modalHeaderTitle">Project 3-Pinterest Application </h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		 <ul>
+			<li>Adding the Send Like functionality in the API</li>
+			<li>Retrieving the list of users liked and liked by userAdding the Send like functionality to the SPA
+			</li>
+			<li>Add a private messaging system to the application
+			</li>
+			<li>Creating the Message Entity and relationships
+			</li>
+			<li>Adding the repository methods for the messages
+			</li>
+			<li>Adding the Create Message method in the API
+			</li>
+			<li>Adding the Repository methods for an Inbox, Outbox
+			</li>
+			<li>Creating the Message Controller Adding the Message thread methods to the API
+			</li>
+			<li>Working with the message component in the SPA
+			</li>
+			<li>Designing the Inbox and Outbox template Getting the message thread in the component
+			</li>
+			<li>Designing the message tab chat system Adding Query params to an Angular route Adding the send message functionality and a challenge
+			</li>
+			<li>Resolving the issue with the photos Adding the Delete message functionality to the API
+			</li>
+			<li>Adding the Mark as Read functionality Using NG Build and running the application from the Kestrel server
+			</li>
+			<li>Angular CLI AOT Production build Installing and setting up MySQL Adding additional Database providers Dealing with migrations and multiple Database providers
+			</li>
+			<li>Adding Lazy loading for our related entities Publishing to IIS
+			</li>
+
+			<li>How VuelS manages your Data and Methods
+			</li>
+			<li>A Closer Look at $el and $data Placing $refs and Using them on your Templates
+			</li>
+			<li>Where to learn more about the Vue API Mounting a Template
+			</li>
+			<li>Using Components Limitations of some Templates How VuelS Updates the DOM The VuelS Instance Lifecycle</li>
+			<li>The VuelS Instance Lifecycle in Practice Moving to a "Real" Development Workflow with Webpack and Vue CLI</li>
+			<li>Why do we need a Development ServerY What does "Development Workflow" meanY
+			</li>
+			<li>Using the Vue CLI to create Projects Installing the Vue CLI and Creating a new Project
+			</li>
+			<li>An Overview over the Webpack Template Folder Structure
+			</li>
+			<li>Understanding ".vue" Files Understanding the Object in the Vue File How to Build your App for Production More about ".vue" Files and the CLI Debugging VuelS Projects
+			</li>
+			<li>Storing Data in Components with the Data Method
+			</li>
+			<li>Registering Components Locally and Globally
+			</li>
+			<li>The "Root Component" in the App.vue File Creating a Component
+				Using Components
+				</li>
+			<li>Moving to a Better Folder Structure Alternative Folder Structures
+			</li>
+			<li></li>
+			<li>How to Name your Component Tags (Selectors)
+				Scoping Component Styles Module Wrap Up
+				</li>
+			<li>Module Resources h Useful Links Communicating between Components Communication Problems
+			</li>
+			<li>Using Props for Parent => Child Communication
+				Naming "props"
+				</li>
+			<li>Using "props" in the Child Component Validating "props"
+			</li>
+			<li>Using Custom Events for Child => Parent Communication
+			</li>
+			<li>Understanding Unidirectional Data Flow Communicating with Callback Functions Communication between Sibling Components
+			</li>
+			<li>Using an Event Bus for Communication Centralizing Code in an Event Bus Advanced Component Usage</li>
+			<li>Setting up the Module Project
+				Passing Content – The Suboptimal Solution Passing Content with Slots
+				</li>
+			<li>How Slot Content gets Compiled and Styled
+			</li>
+			<li>Changed Slot Styling Behavior Using Multiple Slots (Named Slots) Default Slots and Slot Defaults Switching Multiple Components with Dynamic Components Understanding Dynamic Component Behavior
+			</li>
+			<li>Keeping Dynamic Components Alive Dynamic Component Lifecycle Hooks
+			</li>
+			<li> Setting up the Support Module 2 Initializing the Application
+			</li>
+			
+
+
+			<li>Creating the Application Components Passing Data with Props and Slots Allowing Users to Create Quotes with a NewQuote Component
+</li>
+			<li>Adding Quotes with Custom Events Adding a Info Box
+			</li>
+			<li>Allowing for Quote Deletion Controlling Quotes with a Progress Bar
+			</li>
+
+			<li>Finishing Touches and State Management Module Resources
+			</li>
+			<li>Handling User Input with Forms Module Introduction
+				A Basic input Form Binding
+				</li>
+			<li>Grouping Data and Pre–Populating Inputs Modifying User Input with Input Modifiers Binding textarea and Saving Line Breaks</li>
+			<li>Using Checkboxes and Saving Data in Arrays
+				Using Radio Buttons
+				Handling Dropdowns with select and
+				option
+				</li>
+			<li>What v–model does and How to Create a Custom Control
+			</li>
+			<li>Creating a Custom Control (Input) Submitting a Form Understanding Directives
+			</li>
+			<li>How Directives Work – Hook Functions Creating a Simple Directive
+			</li>
+			<li>Passing Values to Custom Directives Passing Arguments to Custom Directives Modifying a Custom Directive with Modifiers</li>
+			<li>Custom Directives – A Summary Registering Directives Locally Using Multiple Modifiers Passing more Complex Values to Directives
+			</li>
+			<li>Improving your App with Filters and Mixins Creating a Local Filter
+			</li>
+			<li>Global Filters and How to Chain Multiple Filters
+			</li>
+			<li>An (often–times better) Alternative to Filters¦ Computed Properties Understanding Mixins
+				Creating and Using Mixins How Mixins get Merged
+				Creating a Global Mixin (Special Case!) Mixins and Scope
+</li>
+			<li>Assigning CSS Classes for Transitions Creating a "Fade" Transition with the CSS Transition Property
+			</li>
+			<li>Creating a "Slide" Transition with the CSS Animation Property
+			</li>
+			<li>Mixing Transition and Animation Properties
+				Animating v–if and v–show
+				</li>
+			<li>Setting Up an Initial (on–load) Animation Using Different CSS Class Names Using Dynamic Names and Attributes</li>
+			<li>Transitioning between Multiple Elements Listening to Transition Event Hooks Understanding lavaScript Animations Excluding CSS from your Animation Creating an Animation in lavaScript Animating Dynamic Components Animating Lists with transition–group Using transition–group – Preparations Using transition–group to Animate a List
+			</li>
+			
+			<li>Understanding the App Creating the App Adding Animations
+			</li>
+			<li> Setting up the Support Module 3 Connecting to Servers via Http – Using vue–resource
+			</li>
+			<li>Accessing Http via vue–resource – Setup Firebase h The Right Database
+			</li>
+			<li>Creating an Application and Setting Up a Server (Firebase)
+			</li>
+			<li>POSTing Data to a Server (Sending a POST Request) GETting and Transforming Data (Sending a GET Request) Configuring vue–resource Globally Intercepting Requests Intercepting Responses
+			</li>
+			<li>Where the "resource" in vue–resource Comes From
+				Creating Custom Resources Resources vs "Normal" Http Requests Understanding Template URLs
+				</li>
+			<li>Setting up the VuelS Router (vue–router) Setting Up and Loading Routes Understanding Routing Modes
+				(Hash vs History)
+				</li>
+			<li>Navigating with Router Links Navigating from Code (Imperative Navigation) Setting Up Route Parameters
+			</li>
+			<li>Fetching and Using Route Parameters Reacting to Changes in Route Parameters vue–router 2.2¦ Extract Route Params
+			</li>
+			<li>Making Router Links more Dynamic A Better Way of Creating Links – With Named Routes
+			</li>
+			<li>Setting Up Child Routes (Nested Routes) Navigating to Nested Routes
+			</li>
+			<li>Making Router Links more Dynamic A Better Way of Creating Links – With Named Routes
+			</li>
+
+			<li>Using Query Parameters Multiple Router Views (Named Router Views) Redirecting
+			</li>
+			<li>Setting Up "Catch All" Routes / Wildcards Animating Route Transitions
+			</li>
+			<li>Passing the Hash Fragment Controlling the Scroll Behavior Protecting Routes with Guards Using the "beforeEnter" Guard Using the "beforeLeave" Guard Loading Routes Lazily Understanding "Centralized State"
+			</li>
+			<li>Why a Centralized State Alone Won't Fix It Understanding Getters
+			</li>
+			<li>Mapping Getters to Properties Understanding Mutations Using Mutations
+			</li>
+			<li>Why Mutations have to run Synchronously How Actions improve Mutations
+				Using Actions
+				</li>
+			<li>Mapping Actions to Methods Two–Way–Binding (v–model) and Vuex Modularizing the State Management Using Namespaces to Avoid Naming Problems
+			</li>
+			<li>Auto–namespacing with Vuex 2.1
+			</li>
+			<li> Setting up the Support Module 4 Creating the First Components Adding a Header and Navigation Creating Stocks Components Adding a "Buy" Button
+			</li>
+			<li>Setting up the Vuex State Management Adding a Portfolio Module to Vuex Working on the Portfolio Stocks
+			</li>
+			
+			<li>Connecting the Portfolio with Vuex Time to fix some Errors
+			</li>
+			<li>Displaying the Funds Adding some Order Checks
+			</li>
+			<li>Making Funds Look Nicer with Filters Ending the Day – Randomizing Stocks Animating the Route Transitions Saving h Fetching Data – Adding a Dropdown
+			</li>
+			<li>Setting up vue–resource and Firebase Saving Data (PUT Request)
+			</li>
+			<li>Fetching Data (GET Request) Testing and Bug Fixes
+			</li>
+			<li>AWS S3 h Bucket Policies CSS Pre–Processors Environment Variables
+			</li>
+			<li> Building the main Project Instant Prototyping Different Build Targets
+			</li>
+			<li>Using the "Old" CLI Templates (vue init) Using the Graphical User Interface (GUI) Alternative Lazy Loading Syntax</li>
+			<li>Create MongoDB Atlas Database, Connect to GraphQL Server
+			</li>
+			<li>Adding the Create handler
+			</li>
+			<li>Dealing with boilerplate code in our handlers
+			</li>
+			<li>Adding an Edit handler Adding a Delete handler
+			</li>
+			<li>Building a CRUD application in React Working with React Hooks
+			</li>
+			<li>Folder structure in React
+				Getting a list of activities from the API Adding an Activity interface in Typescript Refactoring our class component to use React Hooks
+			</li>
+			<li>Adding the Navigation bar Styling React components Adding the Activity Dashboard Creating the Activity List
+			</li>
+			<li>Adding the Activity Details component Adding the Activity Form component Selecting an individual Activity
+			</li>
+			<li>Adding an edit mode to display the form Adding a create activity mode Initialising the form with data
+			</li>
+			<li>Controlled components in React Handling form submission
+			</li>
+			<li>Fixing issues with the dates in the form Adding the delete functionality
+			</li>
+			<li>Setting up the agent.ts file Listing our activities Updating an Activity
+				</li>
+			<li>Adding a delay to our API methods Adding a loading component
+			</li>
+			<li>Adding a loading indicator for submitting data
+			</li>
+			<li>Isolating the loading indicator on the delete button
+			</li>
+			<li>Setting up a MobX store
+			</li>
+			<li>Refactoring the activity list to use the store Refactoring the select activity function Using Async Await in our methods Refactoring the create activity method MobX computed properties
+			</li>
+			<li>Using an Observable Map Adding the edit activity action
+			</li>
+			
+			<li>Adding the delete activity action Cleaning up our code
+			</li>
+			<li>Enabling MobX strict mode Adding MobX dev tools React Router
+			</li>
+			<li>Setting up React Router Setting up our Routes Adding Links and NavLinks Adding the Details link
+			</li>
+			<li>Getting an Activity from the API Using Route params Navigating via code
+			</li>
+			<li>Routing to the edit form
+			</li>
+			<li>Using a Fully Uncontrolled Component with a key to reset component state Navigating after submission
+			</li>
+			<li>Moving the home page outside of our navigation routes
+			</li>
+			<li>Scrolling to the top of the page on navigation
+			</li>
+			<li>Creating Mongoose Schemas Creating typeDefs for Project
+				Write and Run signupUser Mutation Write and Run addPost Mutation Write and Run getPosts Query, Intro to populate
+				</li>
+			<li>Create Vue Client with Vue CLI 3 Adding Plugins with Vue GUI and Concurrently Dev Script Structuring our Vue App</li>
+			<li>Installing Vuetify Plugin and Generating a Theme
+			</li>
+			<li>Horizontal Navbar and Mobile First Design Add Side Navbar
+			</li>
+			<li>Coolors.co for Creating Great Color Schemes (Optional)
+			</li>
+			<li>Horizontal Navbar and Mobile First Design Add Side Navbar
+			</li>
+			<li>Add Routing and Page Transitions Setting up Apollo Client / Vue Apollo, Firing getPosts Query from Client Dive into Smart Queries in Vue Components</li>
+			<li>Executing Queries with the ApolloQuery Component
+			</li>
+			<li>Add Carousel Component to Home Page Integrate Vuex with ApolloClient
+			</li>
+			<li>Firing getPosts Action with Vuex Using Mutations and Getters
+			</li>
+			<li>Add Loading Property, Loading Spinner and mapGetters
+			</li>
+			<li>Create queries.js for Clientside Query / Mutation Definitions
+				Create Gravatar Avatar and Hash User Passwords on Signup
+				</li>
+			<li>Write and Run signinUser Mutation Sign Token and Return it Upon Signin/Signup
+				Using Variables in GraphQL, Signin / Signup Mutation Defs Add Signin Form, Write and Run signinUser Action, Return lWT
+				</li>
+			<li>Additional Config for ApolloClient, Send Token from LocalStorage
+			</li>
+			<li>Verify lWT Token in server.js, Pass Result to currentUser in Context
+			</li>
+			<li>Create getCurrentUser Query, Execute it from main.js
+			</li>
+			<li>Redirect Home upon Signin with Watcher Change Navbar for Signed–in User Create Signout Action
+			</li>
+			<li>Protected Routes and Clearing Malformed Tokens
+				Error Handling and Form Validation Show AuthSnackbar on Signin / Signup Handle Authentication Errors, Show Auth Error Snackbar
+				</li>
+			<li>Add Post / Infinite Scroll Components Make Add Post Form
+			</li>
+			<li>Create and Execute addPost Action / Mutation
+				Update and Optimistic Response for addPost Mutation
+				</li>
+			<li>Infinite Scroll on Posts Page; Add typeDef, Resolver, and Query
+			</li>
+			<li>Add Infinite Scroll Functionality on Client Add Grid Layout / Cards for Each Post in Posts Component
+			</li>
+			<li>Create Post Component and Route Create and Execute getPost Query Build out Post Card in Post Component Add Messages Section to Post Component
+			</li>
+			<li>Create addPostMessage Mutation Perform addPostMessage in Post Component
+			</li>
+			<li>Add Validation for Message Input, Clear on Submit
+				Create typeDefs / resolvers / queries for Like / Unlike
+				</li>
+			<li>Add Logic for Toggling Like / Unlike Post Add Like Notification in Profile Tab
+				Add typeDef / resolver / query for searchPosts
+				Fire searchPosts Action, Log Search Results
+				</li>
+				
+			
+
+		 </ul>
+		</div>
+	  </div>
+	</div>
+  </div>
+  <div class="modal fade" id="modalHeader4" tabindex="-1" role="dialog" aria-labelledby="modalHeaderTitle" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="modalHeaderTitle">Project 4 - Pizza Hut (Huge Production)</h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+	<ul>
+		<li>The admin section Structuring the admin section Listing current orders
+		</li>
+		<li>Add new pizza component Form input bindings
+		</li>
+		<li>Setting up our Firebase database Adding the login component Enable Firebase authentication Signing in and out
+		</li>
+		<li>Final components Vue Router
+		</li>
+		<li>Router installation and setup Creating our routes
+		</li>
+		<li>Router link in more detail Binding and dynamic routes History and hash modes
+			Catch all routes and redirecting Nested routes
+			</li>
+		<li>Nested router view Adding names to routes Router navigation methods Global navigation guards Component guards Guarding individual routes Defining scroll behavior Re–factoring our routes Named router views
+		</li>
+		<li>Stage Management With Vuex Installation and file structure
+		</li>
+		<li>Initial state and accessing the store Improving store access with getters Changing state with mutations Setting the user with actions Dispatching actions
+			Mapping getters
+			</li>
+		<li>Splitting our store into separate files Using modules
+			Binding Vuex to Firebase Sync orders with Firebase
+			</li>
+		<li>Displaying orders in the admin section Moving add new pizza to the central store Removing items from the database Hiding the admin from unauthorised users Calculating the basket total
+			Global currency filter
+		</li>
+		<li>Lazy loading and code splitting Lazy loading with the Vue router
+		</li>
+		<li>Lazy loading with conditional rendering Deployment to Netlify
+		</li>
+		<li>Grouping components into the same chunk
+		</li>
+		<li>Looping through menu items Pushing orders to an array Adding the shopping basket
+		</li>
+		<li>Creating our menu and shopping basket Creating the menu component
+		</li>
+		<li>Making the shopping basket dynamic Shopping basket methods
+		</li>
+	</ul>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+<a href="#" id="scroll_up"></a><script type="text/html" id="wpb-modifications"></script><link rel="stylesheet" id="js_composer_front-css" href="../wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.5.0" type="text/css" media="all">
+<script type="text/javascript" src="../wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wp-polyfill-js-after">
+( 'fetch' in window ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"><\/scr' + 'ipt>' );( document.contains ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"><\/scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"><\/scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"><\/scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"><\/scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="../wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"><\/scr' + 'ipt>' );
+</script>
+<script type="text/javascript" src="../wp-includes/js/dist/i18n.min.js?ver=ac389435e7fd4ded01cf603f3aaba6a6" id="wp-i18n-js"></script>
+<script type="text/javascript" src="../wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.19" id="lodash-js"></script>
+<script type="text/javascript" id="lodash-js-after">
+window.lodash = _.noConflict();
+</script>
+<script type="text/javascript" src="../wp-includes/js/dist/url.min.js?ver=98645f0502e5ed8dadffd161e39072d2" id="wp-url-js"></script>
+<script type="text/javascript" src="../wp-includes/js/dist/hooks.min.js?ver=84b89ab09cbfb4469f02183611cc0939" id="wp-hooks-js"></script>
+<script type="text/javascript" id="wp-api-fetch-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script type="text/javascript" src="../wp-includes/js/dist/api-fetch.min.js?ver=4dec825c071b87c57f687eb90f7c23c3" id="wp-api-fetch-js"></script>
+<script type="text/javascript" id="wp-api-fetch-js-after">
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "../wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "9aca92e5b6" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "../wp-admin/admin-ajax.php?action=rest-nonce";
+</script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4" id="contact-form-7-js"></script>
+<script type="text/javascript" src="../wp-content/themes/iguru/js/theme-addons.js?ver=5.6.2" id="iguru-theme-addons-js"></script>
+<script type="text/javascript" id="iguru-theme-js-extra">
+/* <![CDATA[ */
+var wgl_core = {"ajaxurl":"http:\/\/blankslatetechnology.com\/test\/wp-admin\/admin-ajax.php","slickSlider":"http:\/\/blankslatetechnology.com\/test\/wp-content\/themes\/iguru\/js\/slick.min.js","JarallaxPlugin":"http:\/\/blankslatetechnology.com\/test\/wp-content\/themes\/iguru\/js\/jarallax-video.min.js","JarallaxPluginVideo":"http:\/\/blankslatetechnology.com\/test\/wp-content\/themes\/iguru\/js\/jarallax.min.js","like":"Like","unlike":"Unlike"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/themes/iguru/js/theme.js?ver=5.6.2" id="iguru-theme-js"></script>
+<script type="text/javascript" id="course-review-js-extra">
+/* <![CDATA[ */
+var learn_press_course_review = {"localize":{"empty_title":"Please enter the review title","empty_content":"Please enter the review content","empty_rating":"Please select your rating"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../wp-content/plugins/learnpress-course-review/assets/js/course-review.js?ver=5.6.2" id="course-review-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/learnpress/assets/js/frontend/course.min.js?ver=3.2.8.7" id="course-js"></script>
+<script type="text/javascript" src="../wp-includes/js/wp-embed.min.js?ver=5.6.2" id="wp-embed-js"></script>
+<script type="text/javascript" src="../wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.5.0" id="wpb_composer_front_js-js"></script>
+<div class="lp-overlay">
+
+</div>
+<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+<script id="wgl_custom_footer_js"></script>
+</body>
+</html>
