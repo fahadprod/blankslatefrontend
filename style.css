@@ -1,27 +1,35 @@
 .column-class {
     background-image: url("./images/Group-2.jpg");
-    height: 100vh;
-    background-position: center;
+    height: 70vh;
+    /*background-position: center;*/
     background-size: cover;
 }
 .column-class-1 {
     background-image: url("./images/Group-4.png");
-    height: 100vh;
+    height: 70vh;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 80vh;
+    background-repeat: no-repeat;
 }
 
 .readbutton {
     height: 50px;
     width: 180px;
     border: none;
+    background-color: #ff6d34 !important;
+}
+.readbutton:hover {
+    color: #fff !important;
+    background-color: transparent !important;;
+    border: 2px solid #ff6d34 !important;;
 }
 .pos {
-    height: 80vh;
+    height: 70vh;
 }
 .bgdesign {
-    background-color: blue;
+    background-color: rgba(0, 189, 166, 0.9);
     color: white;
+    height: 70vh;
 }
 .button:link,
 .button:visited {
@@ -38,5 +46,6 @@
     background-image: url("./images/Mask-Group-3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
+    height: 70vh;
 }
