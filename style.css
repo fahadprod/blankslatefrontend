@@ -1,0 +1,42 @@
+.column-class {
+    background-image: url("./images/Group-2.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.column-class-1 {
+    background-image: url("./images/Group-4.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.readbutton {
+    height: 50px;
+    width: 180px;
+    border: none;
+}
+.pos {
+    height: 80vh;
+}
+.bgdesign {
+    background-color: blue;
+    color: white;
+}
+.button:link,
+.button:visited {
+    background-color: yellow;
+    text-decoration: none;
+    color: white;
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.backimg {
+    background-image: url("./images/Mask-Group-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
