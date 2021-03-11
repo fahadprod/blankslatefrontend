@@ -16,18 +16,18 @@
     height: 50px;
     width: 180px;
     border: none;
-    background-color: #ff6d34 !important;
+    background-color: #be1e2d !important;
 }
 .readbutton:hover {
     color: #fff !important;
     background-color: transparent !important;;
-    border: 2px solid #ff6d34 !important;;
+    border: 2px solid #be1e2d !important;;
 }
 .pos {
     height: 70vh;
 }
 .bgdesign {
-    background-color: rgba(0, 189, 166, 0.9);
+    background-color: #bcbec0;
     color: white;
     height: 70vh;
 }
