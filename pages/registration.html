@@ -1275,15 +1275,14 @@
                                     <label for="city"><i class="zmdi zmdi-lock-outline"></i></label>
                                     <input type="text" name="city" id="city" placeholder="Your City"/>
                                 </div>
-                                <div class="form-group">
-                                    <label for="age"><i class="zmdi zmdi-lock-outline"></i></label>
-                                    <select id="education" value="Your Education" style="width: 100%">
-                                        <option value="Inter">Inter</option>
-                                        <option value="Bachelor">Bachelor</option>
-                                        <option value="Master">Master</option>
-                                        <option value="Other">Other</option>
-                                    </select>
-                                </div>
+                                <select id="education" class="form-select" aria-label="Default select example">
+                                  <option selected>Select Education</option>
+                                  <option value="Inter">Inter/O-Level/A-Level</option>
+                                  <option value="Bachelor">Bachelor</option>
+                                  <option value="Master">Master</option>
+                                  <option value="Other">Other</option>
+                                </select>
+                              <br>
                               <button
                                 id="signup"
                                 class="form-group form-button"
