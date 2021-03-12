@@ -697,6 +697,7 @@ Text meant only for screen readers. */
     z-index: 99;
     width: 100%;
     left: 0;
+    /* background-color: #000; */
     top: 0; }
     .wgl-theme-header.header_overlap .wgl-site-header .v_align_middle.header_side .primary-nav .lavalamp-object {
       top: calc(100% + 2px); }
@@ -14083,7 +14084,7 @@ a .wgl-icon {
   .iguru_module_message_box.type_success .message_icon:before {
     content: '\f124'; }
   .iguru_module_message_box.type_error .message_icon_wrap {
-    background-color: #ff6d34; }
+    background-color: #939598; }
   .iguru_module_message_box.type_error .message_icon:before {
     content: '\f126'; }
   .iguru_module_message_box.type_warning .message_icon_wrap {
@@ -16981,3 +16982,8 @@ html .wpb_content_element {
   .theme-gradient .rev_slider .rev-btn.gradient-button:hover, .theme-gradient .rev_slider .rev-btn.gradient-button:active, .theme-gradient .rev_slider .rev-btn.gradient-button:focus {
     background-position: 100% !important;
     color: #fff; }
+
+   
+    .rev-btn:hover{
+      color: #be1e2d !important;
+    }
