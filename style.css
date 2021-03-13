@@ -49,3 +49,98 @@
     background-position: bottom;
     height: 70vh;
 }
+.register-now-btn{
+    color: #fff;
+    background-color: #be1e2d;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    position: absolute;
+    top: 400px;
+    left: 250px;
+}
+.register-now-btn:hover{
+    color: #fff;
+}
+
+.register-now-btn-2{
+    color: #fff;
+    background-color: #be1e2d;
+    padding: 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    top: 300px;
+    left: 500px;
+}
+
+.register-now-btn-2:hover{
+    color: #fff;
+}
+
+@media(max-width: 1024px){
+    .register-now-btn{
+        top: 360px;
+        left: 200px;
+    }
+    .register-now-btn-2{
+        top: 260px;
+        left: 400px;
+    }
+}
+
+@media(max-width: 768px){
+    .register-now-btn{
+        top: 310px;
+        left: 150px;
+        font-size: 18px;
+        padding: 5px 15px;
+    }
+    .register-now-btn-2 {
+        top: 215px;
+        left: 276px;
+    }
+}
+@media(max-width: 767px){
+    .register-now-btn{
+        top: 260px;
+        left: 115px;
+        font-size: 16px;
+    }
+    .register-now-btn-2 {
+        top: 170px;
+        left: 195px;
+        padding: 7px 16px;
+    }
+}
+
+@media (max-width: 425px){
+    .register-now-btn {
+        top: 230px;
+        left: 55px;
+        font-size: 14px;
+        padding: 5px 12px;
+    }
+    .register-now-btn-2 {
+    top: 127px;
+    left: 125px;
+    padding: 5px 10px;
+}
+}
+@media(max-width: 375px){
+    .register-now-btn-2 {
+    top: 116px;
+    left: 105px;
+}
+}
+@media (max-width: 320px){
+    .register-now-btn {
+        top: 204px;
+        left: 40px;
+        font-size: 12px;
+    }
+    .register-now-btn-2 {
+    top: 100px;
+    left: 80px;
+    }
+}
