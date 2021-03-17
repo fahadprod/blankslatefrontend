@@ -77,6 +77,32 @@
 .register-now-btn-2:hover{
     color: #fff;
 }
+.bootcamp-main-section{
+    background-color: #be1e2d; height: 275px; margin-bottom: 50px;
+}
+.bootcamp-section{
+    display: flex;
+    height: 275px;
+}
+.free-bootcamp-section{
+    display: flex;
+    align-items: center;
+}
+.free-bootcamp-img{
+    position: relative;
+    top: -50px;
+    left: 50px;
+    width: 80%;
+}
+.free-bootcamp-heading{
+    color: #fff;
+    font-weight: normal;
+    padding-left: 20px;
+}
+.free-bootcamp-quote{
+    position: relative;
+    top: -50px;
+}
 
 @media(max-width: 1024px){
     .register-now-btn{
@@ -87,6 +113,10 @@
         top: 260px;
         left: 400px;
     }
+    .free-bootcamp-img{
+    left: 0px;
+    width: 95%;
+}
 }
 
 @media(max-width: 768px){
@@ -100,6 +130,19 @@
         top: 215px;
         left: 276px;
     }
+    .free-bootcamp-heading{
+      font-size: 25px;
+}
+.bootcamp-main-section{
+    height: 230px;
+}
+.bootcamp-section {
+    height: 230px;
+}
+.free-bootcamp-img{
+    width: 100%;
+    top: -30px;
+}
 }
 @media(max-width: 767px){
     .register-now-btn{
@@ -111,6 +154,9 @@
         top: 170px;
         left: 195px;
         padding: 7px 16px;
+    }
+    .bootcamp-main-section {
+        height: auto;
     }
 }
 
@@ -131,6 +177,12 @@
     .register-now-btn-2 {
     top: 116px;
     left: 105px;
+}
+.free-bootcamp-heading {
+    font-size: 20px;
+}
+.free-bootcamp-quote{
+    width: 12%;
 }
 }
 @media (max-width: 320px){

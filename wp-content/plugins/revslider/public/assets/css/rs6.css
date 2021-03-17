@@ -367,7 +367,7 @@ rs-module img{
 rs-module .no-slides-text{font-weight:bold;text-align:center;padding-top:80px;}
 
 
-rs-slides, rs-slide, rs-slide:before {	 position:absolute;text-indent: 0em;top:0px;left:0px;}
+rs-slides, rs-slide, rs-slide:before {	 position:absolute;text-indent: 0em;top:0px;left:0px; height: 100vh !important}
 rs-slide,rs-slide:before {  display:block; visibility:hidden; }
 
 .rs-layer .rs-untoggled-content { display:block;}
@@ -488,6 +488,31 @@ rs-parallax-wrap,
 rs-loop-wrap,
 rs-mask-wrap { display: block; }
 
+/* .rs-parallax-wrap{
+	top: 500px !important;
+}
+
+@media(max-width: 1024px){
+	.rs-parallax-wrap{
+	top: 400px !important;
+}
+} */
+
+@media(max-width: 425px){
+	#rev_slider_1_1{
+		height: 100vh !important;
+		max-height: 100vh !important;
+	}
+	rs-sbg{
+		background-position: 67% !important;
+	}
+}
+
+@media(max-width: 320px){
+	rs-sbg{
+		background-position: 65% !important;
+	}
+}
 
 rs-column-wrap>rs-loop-wrap { z-index: 1 }
 
@@ -518,7 +543,7 @@ rs-cbg-mask-wrap
  
 
 rs-mask-wrap { overflow: hidden }
-rs-fullwidth-wrap { position:relative;width:100%;height:auto;display: block; overflow:visible;max-width:none !important;}
+rs-fullwidth-wrap { position:relative;width:100%;height:100vh;display: block; overflow:visible;max-width:none !important;}
 /*IE11 AND IE EDGE NEED SOME SPECIAL OVERFLOW
 Removed now since iE 11 and ieEdge fullwidth Slider had spacings again on other themes.
 May need to keep in eye the Carousel and Modal sliders in Fullscreen / Fullwidth mode ! 
