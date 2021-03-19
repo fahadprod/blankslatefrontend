@@ -1989,6 +1989,29 @@
       overflow: visible !important;
     }
 
+    @media(max-width: 425px){
+      .vc_custom_1569856727231 {
+    
+      width: 800px !important;
+      
+    }
+    }
+
+    @media(max-width: 375px){
+      .vc_custom_1569856727231 {
+    
+      width: 700px !important;
+      
+    }
+    }
+
+    @media(max-width: 320px){
+      .vc_custom_1569856727231 {
+    width: 630px !important;
+    left: -10px !important;
+}
+    }
+
     .vc_custom_1569858110976 {
       background: #242937 url(./wp-content/uploads/2019/09/home_03-bg.jpg?id=2599) !important;
     }
@@ -2141,7 +2164,7 @@
               color: rgba(172, 172, 174, 1);
             ">
           <div class="wgl-container">
-            <div class="wgl-header-row_wrapper" style="height: 40px">
+            <div class="wgl-header-row_wrapper"  style="height: 40px">
               <div class="position_left_top header_side display_normal v_align_middle h_align_left">
                 <div class="header_area_container">
                   <div class="bottom_header html1_editor header_render_editor header_render">
@@ -2407,7 +2430,7 @@
   </header>
   <main id="main">
     <div class="wgl-container">
-      <div class="row">
+      <div class="row gx-0">
         <div id="main-content" class="wgl_col-12">
           <div style="z-index: 0" class="vc_row wpb_row vc_row-fluid vc_custom_1569850554436">
             <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -3092,7 +3115,7 @@
                       <div class="iguru_module_carousel-wrapper">
                         <div id="iguru_carousel_6041219c84b80" class="iguru_module_carousel pag_align_center">
                           <div class="iguru_carousel_slick"
-                            data-slick='{"slidesToShow":5,"slidesToScroll":1,"infinite":true,"variableWidth":false,"autoplay":true,"autoplaySpeed":"3000","speed":300,"arrows":false,"dots":false,"adaptiveHeight":false,"responsive":[{"breakpoint":1025,"settings":{"slidesToShow":4,"slidesToScroll":1}},{"breakpoint":800,"settings":{"slidesToShow":2,"slidesToScroll":1}},{"breakpoint":480,"settings":{"slidesToShow":1,"slidesToScroll":1}}]}'>
+                            data-slick='{"slidesToShow":5,"slidesToScroll":1,"infinite":true,"centerMode": true,"variableWidth":false,"autoplay":true,"autoplaySpeed":"3000","speed":300,"arrows":false,"dots":false,"adaptiveHeight":false,"responsive":[{"breakpoint":1025,"settings":{"slidesToShow":4,"slidesToScroll":1}},{"breakpoint":800,"settings":{"slidesToShow":2,"slidesToScroll":1}},{"breakpoint":768,"settings":{"slidesToShow":2,"centerMode": true, "slidesToScroll":1}},{"breakpoint":480,"settings":{"slidesToShow":2,"centerMode": true,"slidesToScroll":1}}]}'>
                             <div class="clients_image">
                               <div class="image_wrapper">
                                 <img class="main_image" src="./wp-content/uploads/2019/09/partners_1-w.png" alt="" /><img
@@ -3650,17 +3673,24 @@
 
             <!-- job banner -->
 
-            <div class="container">
-              <div class="row">
+            <div class="container-fluid"
+              >
+              <div class="row gx-0">
                 <div class="col-md-12">
-                  <a href="./pages/registration.html" class="register-now-btn-2">
+                  <!-- <a href="./pages/registration.html" class="register-now-btn-2">
                     Register Now
-                  </a>
+                  </a> -->
+                  <div id="iguru_button_6041219c69625" class="register-now-btn-2 iguru_module_button wgl_button wgl_button-xl">
+                    <a class="wgl_button_link register-btn-job" href="./pages/registration.html" title="Courses Grid"
+                      style="border-radius: 5px">Register Now</a>
+                  </div>
                   <img src="./images/confirm-job.jpg" alt="Confirm Job" class="img-fluid">
                 </div>
               </div>
             </div>
 
+
+            
 
 
 
@@ -4309,25 +4339,6 @@
               </div>
             </div>
 
-
-            <!-- footer bootcamp -->
-
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <a href="./pages/registration.html" class="register-now-btn">
-                    Register Now
-                  </a>
-                  <img class="img-fluid" src="./images/free-bootcamp.jpg" alt="Free BootCamp">
-
-                </div>
-              </div>
-            </div>
-
-
-
-
-
             <div id="blog" class="wpb_column vc_column_container vc_col-sm-9 vc_col-lg-9 vc_col-md-9" style="margin-top: 80px;">
               <div class="vc_column-inner vc_custom_1569926223637">
                 <div class="wpb_wrapper">
@@ -4482,6 +4493,28 @@
       </div>
     </div>
   </main>
+
+              <!-- footer bootcamp -->
+              
+              <div class="container-fluid">
+                <div class="row gx-0">
+                  <div class="col-md-12">
+                    <!-- <a href="./pages/registration.html" class="register-now-btn">
+                      Register Now
+                    </a> -->
+
+                    <div id="iguru_button_6041219c69625" class="register-now-btn iguru_module_button wgl_button wgl_button-xl">
+                      <h6 class="join-two-months">JOIN TWO MONTHS</h6>
+                      
+                      <h1 class="free-bootcamp">Free BootCamp</h1>
+                      <a class="wgl_button_link register-btn-job" href="./pages/registration.html" title="Courses Grid"
+                        style="border-radius: 5px">Register Now</a>
+                    </div>
+                    <img class="img-fluid" src="./images/free-bootcamp.png" alt="Free BootCamp">
+              
+                  </div>
+                </div>
+              </div>
 
   <footer class="footer clearfix" style="background-color: #12141b" id="footer">
     <div class="footer_top-area">
