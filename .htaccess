@@ -1,2 +1,1 @@
-RewriteEngine On
-RewriteRule ^index\.html$ / [R=301,L]
+DirectoryIndex index.html
