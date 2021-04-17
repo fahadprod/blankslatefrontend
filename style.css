@@ -242,13 +242,19 @@
         left: 130px;
     }
     .register-now-btn{
-        top: 165px;
+        top: 173px;
         width: 350px;
         padding-bottom: 13px;
     }
     .free-bootcamp {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 40px;
+}
+.join-two-months {
+    font-size: 16px;
+}
+.bootcamp-img{
+    height: 170px;
 }
 .free-bootcamp-heading {
     font-size: 20px;
@@ -264,17 +270,12 @@
 }
 @media (max-width: 320px){
     .register-now-btn {
-    top: 173px;
     left: 0px;
     width: 300px;
     font-size: 12px;
 }
-.bootcamp-img{
-    height: 170px;
-}
-.join-two-months {
-    font-size: 16px;
-}
+
+
 .free-bootcamp {
     font-size: 25px;
     line-height: 40px;
