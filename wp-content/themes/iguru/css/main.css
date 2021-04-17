@@ -1657,7 +1657,20 @@ Text meant only for screen readers. */
     background: unset; }
   @media (max-width: 480px) {
     .wgl-mobile-header .header_area_container .log-in.learnpress .log-link i {
-      display: none; } }
+      display: none; } 
+    .br-hide{
+      display: none;
+    }
+    .small-screen-main-heading{
+      color: #fff !important;
+    }
+    .small-screen-tagline{
+      color: #fff !important;
+    }
+    .small-screen-paragraph{
+      color: #fff !important;
+    }
+    }
 
 @media (max-width: 380px) {
   .wgl-mobile-header .header_area_container .log-in.learnpress a.log-link {
@@ -4404,7 +4417,7 @@ body.single .wgl-container .row.single_type-3 {
 @media only screen and (max-width: 1200px) {
   .vc_row:not(.vc_row-no-padding) .vc_column_container > .vc_column-inner,
   .vc_row:not(.vc_row-no-padding) .theiaStickySidebar > .vc_column-inner {
-    padding-left: 15px !important;
+    /* padding-left: 15px !important; */
     padding-right: 15px !important; } }
 
 @media only screen and (max-width: 1024px) {

@@ -59,6 +59,7 @@
     position: relative;
     top: 415px;
     left: 250px;
+    width: 600px;
 }
 .register-now-btn:hover{
     color: #fff;
@@ -135,7 +136,7 @@
 
 @media(max-width: 768px){
     .register-now-btn{
-        top: 310px;
+        top: 280px;
         left: 150px;
         font-size: 18px;
         padding: 5px 15px;
@@ -145,18 +146,25 @@
             left: 290px;
     }
     .free-bootcamp-heading{
-      font-size: 25px;
-}
-.bootcamp-main-section{
-    height: 230px;
-}
-.bootcamp-section {
-    height: 230px;
-}
-.free-bootcamp-img{
-    width: 100%;
-    top: -30px;
-}
+        font-size: 25px;
+    }
+    .bootcamp-main-section{
+        height: 230px;
+    }
+    .bootcamp-section {
+        height: 230px;
+    }
+    .free-bootcamp-img{
+        width: 100%;
+        top: -30px;
+    }
+    .join-two-months{
+        font-size: 20px;
+    }
+    .free-bootcamp{
+            padding-top: 10px;
+            font-size: 40px;
+    }
 }
 @media(max-width: 767px){
     .register-now-btn{
@@ -174,12 +182,48 @@
     }
 }
 
+@media (max-width: 640px){
+    .register-now-btn {
+        padding-bottom: 25px;
+    }
+}
+
+@media(max-width: 540px){
+    .register-now-btn-2 {
+        top: 200px;
+        left: 145px;
+    }
+    .register-now-btn{
+        left: 35px;
+        width: 400px;
+        padding-bottom: 58px;
+    }
+    .free-bootcamp {
+        padding-top: 0px;
+        font-size: 35px;
+    }
+    .register-btn-job {
+        margin-top: 0px;
+        min-width: 160px !important;
+        min-height: 47px !important;
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 425px){
     .register-now-btn {
-        top: 230px;
-        left: 55px;
+        top: 175px;
+        left: 5px;
         font-size: 14px;
         padding: 5px 12px;
+    }
+    .join-two-months {
+    font-size: 18px;
+    }
+    .free-bootcamp {
+        padding-top: 0px;
+        font-size: 30px;
+        line-height: 45px;
     }
     .register-now-btn-2 {
         top: 170px;
@@ -197,6 +241,15 @@
         top: 160px;
         left: 130px;
     }
+    .register-now-btn{
+        top: 165px;
+        width: 350px;
+        padding-bottom: 13px;
+    }
+    .free-bootcamp {
+    font-size: 28px;
+    line-height: 40px;
+}
 .free-bootcamp-heading {
     font-size: 20px;
 }
@@ -211,10 +264,21 @@
 }
 @media (max-width: 320px){
     .register-now-btn {
-        top: 204px;
-        left: 40px;
-        font-size: 12px;
-    }
+    top: 173px;
+    left: 0px;
+    width: 300px;
+    font-size: 12px;
+}
+.bootcamp-img{
+    height: 170px;
+}
+.join-two-months {
+    font-size: 16px;
+}
+.free-bootcamp {
+    font-size: 25px;
+    line-height: 40px;
+}
     .register-now-btn-2 {
         top: 145px;
         left: 100px;
