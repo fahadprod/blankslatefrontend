@@ -1,0 +1,200 @@
+/*Big tablet to 1200px (width smaller than the 1140px row)*/
+
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%; /*now we dont want a fixed width so we will change width to 100%*/
+    padding: 0 2%; /*top to bottom padding 0 and left to right padding is 2%*/
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/*small tablets to big tablets: from 768 to 1023px*/
+
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+    /*now we have reduced the font size of the body here to 18px
+    so the other fonts which were taking percentages as a size will also get reduced
+    automatically*/
+  }
+  section {
+    padding: 60px 0;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%; /*as 10+10 equals 20 and 20+80 equals 100*/
+  }
+  .steps-box {
+    margin-top: 10px;
+    line-height: 30px;
+  }
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+  .works-step {
+    margin-bottom: 40px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 60px;
+  }
+  .btn-app img {
+    margin-top: 20px;
+  }
+  .app-screen {
+    width: 50%;
+  }
+  .icon-small {
+    width: 15px;
+    margin-right: 5px;
+  }
+  .city-feature {
+    font-size: 90%;
+  }
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .plan-price {
+    font-size: 250%;
+  }
+  .contact-form {
+    width: 90%;
+  }
+  .footer-nav {
+    width: 350px;
+  }
+  .social-links {
+    width: 150px;
+  }
+}
+/*small phones to small tablets: from 481px to 767px*/
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+  }
+  .main-nav {
+    display: none;
+  }
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+  .main-nav {
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+  .main-nav li {
+    display: block;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+  }
+  .sticky .main-nav {
+    margin-top: 10px;
+  }
+  .sticky .mobile-nav-icon i {
+    color: #555;
+  }
+  .sticky .mobile-nav-icon {
+    margin-top: 10px;
+  }
+  h1 {
+    font-size: 100%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+  .long-copy {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .works-step {
+    margin-bottom: 20px;
+    font-size: 96%;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 20px; /*as we dont need white space too much here so it will shrink the content*/
+  }
+  .works-step div {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    padding: 4px;
+    font-size: 120%;
+  }
+  .steps-box:first-child {
+    text-align: center;
+  }
+  .app-screen {
+    width: 40%;
+  }
+  cite {
+    font-size: 90%;
+    margin-top: 10px;
+    display: block;
+  }
+  cite img {
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-bottom: 20px;
+  }
+  .plan-box {
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+  }
+  .plan-price {
+    font-size: 250%;
+  }
+  .contact-form {
+    width: 65%;
+    /*top and bottom with 0 margin, left and right with auto margin*/
+  }
+  input {
+    margin-bottom: 10px;
+  }
+  .col {
+    margin: 0 0 4% 0%;
+  }
+  .footer-nav {
+    width: 350px;
+  }
+}
+/*this query will work for the small phones such as iphone 4 etc.*/
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .btn-app img {
+    height: 30%;
+    width: 30%;
+  }
+  .works-step {
+    font-size: 90%;
+  }
+}

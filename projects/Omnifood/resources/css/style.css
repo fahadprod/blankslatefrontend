@@ -1,0 +1,526 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility; /*to make all fonts render in a perfect way*/
+  overflow-x: hidden;
+}
+.row {
+  max-width: 1140px; /*max-width means that the content will not reach above its specific pixel */
+  margin: 0 auto 0 auto; /*margin: top,right,bottom,left*/
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.548)),
+    url("../css/image/hero.jpg");
+  height: 100vh; /*100vh means its 100% of the view port*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%; /*50% from the top*/
+  left: 50%; /*50% from the left*/
+  transform: translate(
+    -50%,
+    -50%
+  ); /*translate the element from half of its width and height*/
+}
+h1 {
+  color: #fff;
+  font-size: 200%; /*font size described before was 20px, so 200% makes it 40px */
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px; /*10px of top bottom and 30px of left right*/
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.4s, border 0.4s, color 0.4s; /*background color will change slowly on hovering*/
+}
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #fff;
+  margin-right: 20px;
+}
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #e67e22;
+  color: #e67e22;
+}
+.btn:hover,
+.btn:active {
+  background-color: #cf6d17;
+}
+.btn-full:hover,
+.btn-full:active {
+  border: 1px solid #cf6d17;
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #cf6d17;
+  color: #fff;
+}
+.logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 60px;
+}
+.main-nav li {
+  /*main-nav li means main navigation including all li elements*/
+  display: inline-block;
+  margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+  /*main-nav li a means that li in main nav and a tag in each li*/
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%; /*90% will give us 18px*/
+  border-bottom: 2px solid transparent;
+  padding: 8px 0px;
+  transition: border-bottom 0.3s;
+  /*property which is to be animated will be written in transition*/
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #e67e22;
+  padding: 8px 0px; /*padding top bottom 5px and left right 0px*/
+  /*padding is an inside space which goes between the content and the border*/
+}
+section {
+  padding: 50px 0px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 180%;
+  text-align: center;
+  word-spacing: 3px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+h2::after {
+  /*h2:after means that the content will be placed after h2 whatever the content is*/
+  display: block;
+  height: 2px;
+  background-color: #e67e22;
+  content: "";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.long-copy {
+  /*setting the paragraph line and aligning it*/
+  line-height: 145%;
+  width: 68%;
+  margin-left: 18%;
+}
+.box {
+  padding: 1%;
+}
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+.icon-big {
+  font-size: 300%;
+  display: block;
+  color: #e67e22;
+  margin-bottom: 10px;
+}
+.meals-showcase {
+  list-style: none;
+  width: 100%; /*covers 100% width*/
+}
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%; /*25 times 4 equals 100 so 4 images will be covered in 100% width*/
+}
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden; /*doing this will make the images appear in a boxed size*/
+  background-color: #000;
+}
+.meal-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15); /*doing this will make the size of the image larger*/
+  transition: transform 0.5s, opacity 0.5s; /*will delay the image zoom in and zoom out time*/
+}
+.section-meals {
+  padding: 0;
+}
+.meal-photo img:hover {
+  opacity: 1;
+  transform: scale(1.4);
+  /*on hovering the image with scale greater than 1 will zoom in and with scale less than 1 will zoom out*/
+}
+.steps-box:first-child {
+  /*here we are using pesudo class and first child is the iphone picture */
+  margin-top: 30px;
+  text-align: center;
+  padding-right: 3%;
+}
+.steps-box:last-child {
+  /*here we are using pesudo class and last child is the text description */
+  padding-left: 3%;
+  margin-top: 70px;
+}
+.app-screen {
+  width: 40%;
+}
+.works-step {
+  margin-bottom: 50px;
+}
+.works-step div {
+  color: #e67e22;
+  border: 2px solid #e67e22;
+  /*this makes sure that we dont force line breaks and the numbers and texts are side by side*/
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+}
+.works-step:last-of-type {
+  /*here last-of-type is a pseudo class which will pick the last element and align it*/
+  margin-bottom: 80px;
+}
+.clearfix::after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.section-steps {
+  background-color: #f4f4f4;
+}
+.box img {
+  width: 100%;
+  height: auto;
+}
+.city-feature {
+  margin-bottom: 10px;
+}
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  font-size: 120%;
+  line-height: 120%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+a:link,
+a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: border-bottom 0.2s, 0.2s;
+}
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
+}
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)),
+    url("../../resources/image/back-customers.jpg");
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+blockquote {
+  padding: 1%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+}
+blockquote::before {
+  content: "\201C";
+  font-size: 400%;
+  display: block;
+  position: absolute;
+  /*whenever we make an element position absolute we need to make sure that its parent is in relative position*/
+  left: 0px;
+}
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+}
+cite img {
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+.section-plans {
+  background-color: #ece9e9;
+}
+.plan-box {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 1px 1px 2px 2px rgb(189, 187, 187);
+}
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.plan-price {
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 300;
+  color: #e67e22;
+}
+.plan-price-meal {
+  font-size: 80%;
+}
+.plan-price span {
+  /*this property right here is the child of plan-price class so 
+  its font size will be calculated with respect to the 300% font size in plan price*/
+  font-size: 30%;
+  font-weight: 300;
+}
+.plan-box ul {
+  list-style: none;
+}
+.plan-box ul li {
+  padding: 5px 0;
+}
+.plan-box div:last-child {
+  /*div:last-child is a pseudo class which will take the 
+  last element which is button and will align it to center.*/
+  text-align: center;
+  border: 0;
+}
+.plan-box div:first-child {
+  /*div:first-child is a pseudo class which will take the first element 
+  which is the price section and will change its background color*/
+  background-color: #f4f4f4;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+  /*top and bottom with 0 margin, left and right with auto margin*/
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+textarea {
+  height: 100px;
+}
+input[type="submit"] {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s color 0.2s;
+}
+input[type="submit"] {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  color: #fff;
+  margin-right: 15px;
+}
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background-color: #cf6d17;
+}
+input[type="checkbox"] {
+  margin: 10px 5px 10px 0;
+}
+*:focus {
+  outline: none;
+}
+footer {
+  background-color: #333;
+  padding: 50px;
+  font-size: 80%;
+}
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+.social-links {
+  list-style: none;
+  float: right;
+}
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+/*now if we inspect the social links elements in the browser we will that there is still 
+margin of the last icon to the right if we want to fulfill the margin according to the size of row defined*/
+.footer-nav li:last-child,
+.social-links li:last-child {
+  margin-right: 0;
+  /* now this will pick up the last list element and the last social icon
+  and give it margin right so that it fulfills the size of the row defined*/
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  /*.footer-nav li a:link means that all of the links 
+  in footer nav li will be given properties we mention here*/
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  transform: color 0.2s;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #ddd;
+}
+footer p {
+  color: #888;
+  text-align: center;
+  margin-top: 30px;
+}
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 160%;
+}
+.ion-social-facebook:hover {
+  color: #3b5998;
+}
+.ion-social-googleplus:hover {
+  color: #dd4b39;
+}
+
+.ion-social-twitter:hover {
+  color: #55acee;
+}
+.ion-social-instagram:hover {
+  color: #007ee5;
+}
+.ion-social-facebook:hover,
+.ion-social-twitter:hover,
+.ion-social-instagram:hover,
+.ion-social-googleplus:hover {
+  transition: color 0.3s;
+}
+/* sticky navi */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.9;
+  background-color: #fff;
+  box-shadow: 0 2px 2px rgb(212, 212, 212);
+  z-index: 9999; /*sticky will always be at the top of the stack of elements*/
+  /*z-index: defines the vetical stacking of the elements*/
+}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 15px 0;
+  color: #555;
+}
+.logo-black {
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
+  display: none;
+}
+.sticky .logo {
+  display: none;
+}
+.sticky .logo-black {
+  display: block;
+}
+.sticky .main-nav {
+  margin-top: 18px;
+}
+/*Animations*/
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-5 {
+  opacity: 0;
+  animation-duration: 1s;
+}
+.js--wp-4 {
+  animation-duration: 2s;
+}
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated,
+.js--wp-5.animated {
+  opacity: 1;
+}
+/*mobile navi*/
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #fff;
+}

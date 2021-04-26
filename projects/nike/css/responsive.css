@@ -1,0 +1,106 @@
+ 
+
+@media (min-width: 768px) and (max-width: 991px) {
+ .col-lg-2.col-sm-2.col-md-2.right-seach {
+    position: absolute;
+    right: 50%;
+    top: 18px;
+    width: 47px;
+    margin-right: -34px;
+	    z-index: 99;
+}
+button.navbar-toggler {
+    color: #fff;
+}
+.header_01 {
+    background: #020202;
+    padding: 21px 0px 0 24px;
+}
+.col-lg-8.col-sm-7.col-md-7.nav-top-head {
+    position: absolute;
+    right: 0px;
+    z-index: 9;
+}
+.col-lg-8.col-sm-7.col-md-7.nav-top-head .mainmenu {
+    position: relative;
+    text-align: right!important;
+    display: unset;
+}
+.col-lg-8.col-sm-7.col-md-7.nav-top-head button.navbar-toggler {
+    display: block;
+    float: right;
+    margin-top: 14px;
+}
+ 
+ 
+ 
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    background: #020202;
+    top: 20px;
+    position: relative;	
+    width: 100%;
+    text-align: center;
+}
+div#navbarSupportedContent {
+    position: absolute;
+    left: 0px;
+    top: 64px;
+} 
+.row.custom_column .col-lg-3.col-sm-4.col-md-3 {
+    max-width: 33%!important;
+    flex: 0 0 33%!important;
+	width: 33%!important;
+}
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+.col-lg-2.col-sm-2.col-md-2.right-seach {
+    position: absolute;
+    right: 50%;
+    top: 18px;
+    width: 47px;
+    margin-right: -34px;
+	    z-index: 99;
+}
+button.navbar-toggler {
+    color: #fff;
+}
+ 
+.col-lg-8.col-sm-7.col-md-7.nav-top-head {
+    position: absolute;
+    right: 0px;
+    z-index: 9;
+}
+.col-lg-8.col-sm-7.col-md-7.nav-top-head .mainmenu {
+    position: relative;
+    text-align: right!important;
+    display: unset;
+}
+.col-lg-8.col-sm-7.col-md-7.nav-top-head button.navbar-toggler {
+    display: block;
+    float: right;
+    margin-top: 14px;
+}
+ 
+ 
+.row.custom_column .col-lg-3.col-sm-4.col-md-3 {
+        width: auto!important;
+    flex: auto;
+}
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    background: #020202;
+    top: 20px;
+    position: relative;	
+    width: 100%;
+    text-align: center;
+}
+div#navbarSupportedContent {
+    position: absolute;
+    left: 0px;
+    top: 64px;
+}
+}

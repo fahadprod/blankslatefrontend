@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <script src="https://kit.fontawesome.com/1c2c2462bf.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+
+<body>
+    <div class="music-container">
+        <div>
+            <h1 class="quote"><i class="fas fa-quote-left"></i></h1>
+            <h1 class="music-quote">
+                The World <br> <span class="bold-word">
+                    Needs
+                </span> <br> More Funk!
+            </h1>
+        </div>
+
+        <div class="music-content">
+            <div id="bg-image">
+                <div id="blackLayer"></div>
+                <img src="./Images/ncs1.jpeg" alt="Image" id="bgImage">
+            </div>
+            <div id="menu">
+                <img src="./Images/menu.png" alt="Menu">
+                <img src="./Images/search.png" alt="Search">
+            </div>
+            <div id="volume-container">
+                <img src="./Images/volume-low.png" alt="volume low" id="volumn-down">
+                <input type="range" class="slider" id="volumeslider" min="0" max="100" value="100" step="1">
+                <img src="./Images/volumn-high.png" alt="volume hide" id="volumn-up">
+            </div>
+            <div id="music-image">
+                <div id="circle-image">
+                    <img src="./Images/ncs1.jpeg" alt="NCS" id="image">
+                </div>
+                <div id="music-title">
+                    <h5 id="playlist_status"></h5>
+                    <h6 id="playlist_artist"></h6>
+                </div>
+            </div>
+            <div id="music-menu">
+                <button id="random"><img src="./Images/random.png" alt="Random"></button>
+                <button id="mutebtn"><img src="./Images/speaker.png" alt="Speaker"></button>
+            </div>
+            <div id="currentTime">
+                <span id="curtimetext">00:00</span>
+                <span id="durtimetext">00:00</span>
+            </div>
+            <input type="range" class="seekslider" id="seekslider" min="0" max="100" value="0" step="1">
+            <div id="buttons">
+                <button class="repeat" id="repeat">
+                    <img src="./Images/rep.png" alt="">
+                </button>
+                <div>
+                    <button class="pre" id="prevbtn">
+                        <img src="./Images/backward.png" alt="">
+                    </button>
+                    <button class="play" id="playpausebtn">
+                        <img src="./Images/play-red.png" alt="">
+                    </button>
+                    <button class="next" id="nextbtn">
+                        <img src="./Images/forward.png" alt="Forward">
+                    </button>
+            
+                </div>
+                <span class="like">
+                    <i class="far fa-heart" aria-hidden="true"></i>
+                </span>
+            </div>
+        </div>
+
+        <div>
+            <img src="https://media.giphy.com/media/RezWpJN8bYlUnRqscm/giphy.gif" alt="">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

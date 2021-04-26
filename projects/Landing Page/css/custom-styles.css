@@ -1,0 +1,107 @@
+.mybody{
+    
+}
+.icon{
+    height: 150px;
+}
+.cust-navbar{
+    background-image: url("../img/goblet.jpg");
+}
+.texts{
+    position: relative;
+    font-weight: 600;
+    font-size: 20px;
+}
+.abc{
+    font-size: 60px;
+    background: linear-gradient(rgb(0 , 0 , 0), #34C616);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.abc1{
+    font-size: 30px;
+    background: linear-gradient(rgb(0 , 0 , 0), #34C616);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.myfont{
+    font-size: 20px;
+    font-weight: bold;
+}
+.my-cust-cards{
+    height: 100%;
+}
+.pos1{
+    transform: translateX(100px);
+}
+.batman-pos{
+    transform: translateX(100px);
+}
+.dang-box{
+    width: 100px;
+    height: 100px;
+    background-color: #76B900;
+    transform: translateY(-70px);
+    transform: rotate(35deg);
+    
+}
+.dang-box1{
+    width: 100px;
+    height: 100px;
+    background-color: #99ec09;
+    transform: translate(100px,-130px);
+
+}
+
+/* .cust-overlay:hover{
+    z-index: 9999;
+}
+.image-set{
+    background-image: linear-gradient(rgb(17, 17, 17), rgb(39, 39, 28)),url('../img/CEO.png');
+
+} */
+
+
+
+.footer{
+    font-size: 1rem;
+    font-family: 'Roboto Condensed',sans-serif;
+    color: #76B900;
+}
+.theme-bg-primary{
+    background-color: rgb(19, 15, 15);
+}
+.col-heading{
+    text-transform: uppercase;
+    font-family: 'Oswald',sans-serif;
+    margin-bottom: 20px;
+}
+.mb-2{
+    margin-bottom: 0.5rem !important;
+}
+.footer ul li a{
+    font-size: 17px;
+    color: white;
+}
+.download-area h3{
+    font-family: 'Oswald',sans-serif;
+}
+#back2Top{
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    background-color: #00c9db;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-radius: 4px;
+}
