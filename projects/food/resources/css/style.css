@@ -18,7 +18,7 @@ html {
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.548)),
-    url("../css/image/hero.jpg");
+    url("../css/image/n.jpeg");
   height: 100vh; /*100vh means its 100% of the view port*/
   background-size: cover;
   background-position: center;
@@ -275,7 +275,7 @@ a:active {
 }
 .section-testimonials {
   background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)),
-    url("../../resources/image/back-customers.jpg");
+    url("../../resources/image/c.jpeg");
   background-size: cover;
   color: #fff;
   background-attachment: fixed;

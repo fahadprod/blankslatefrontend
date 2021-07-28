@@ -5,27 +5,27 @@ let audio, playbtn, title, poster, artists, mutebtn,
     curtimetext, durtimetext, playlist_status, dir, playlist,
     ext, agent, playlist_artist, repeat, randomSong;
 
-
     // initialization of array of music , title poster , image and artist
 
-dir = "music/";
-playlist = ["Cartoon-On", "Elektronomia", "Johnning",
-    "Popsicle", "Fearless"];
-title = ["Cartoon - On", "Elektronomia", "Janji-Heroes Tonight",
-    "Popsicle", "Lost Sky-Fearless"];
-artists = ["(feat. Daniel Levi) [NCS Release]", "Elektronomia-Sky Hight [NCS Release]",
-    "(feat, Johnning) [NCS Release]", "LFZ - [NCS Release]", "(feat. Chris Linton) [NCS Release]"
-];
+    dir = "music/";
+    playlist = ["Cartoon-On", "Elektronomia", "Johnning",
+        "Popsicle", "Fearless"];
+    title = ["Cartoon - On", "Elektronomia", "Janji-Heroes Tonight",
+        "Popsicle", "Lost Sky-Fearless"];
+    artists = ["(feat. Daniel Levi) [NCS Release]", "Elektronomia-Sky Hight [NCS Release]",
+        "(feat, Johnning) [NCS Release]", "LFZ - [NCS Release]", "(feat. Chris Linton) [NCS Release]"
+    ];
+    
+    poster = ["./Images/ncs1.jpeg", "./Images/ncs2.jpg", "./Images/ncs3.jpg",
+        "./Images/ncs4.jpg", "./Images/ncs5.jpg"];
 
-poster = ["./Images/ncs1.jpeg", "./Images/ncs2.jpg", "./Images/ncs3.jpg",
-    "./Images/ncs4.jpg", "./Images/ncs5.jpg"];
-
-    // Used to run on every browser
+        // Used to run on every browser
 
 ext = ".mp3";
 agent = navigator.userAgent.toLowerCase();
 if (agent.indexOf('firefox') != -1 || agent.indexOf('opera') != -1) {
     ext = ".ogg";
+
 }
 
 // set object references
@@ -62,6 +62,7 @@ playbtn.addEventListener("click", playPause);
 nextbtn.addEventListener("click", nextSong);
 prevbtn.addEventListener("click", prevSong);
 mutebtn.addEventListener("click", mute);
+
 seekslider.addEventListener("mousedown", function (event) {
     seeking = true;
     seekslider(event);
@@ -82,7 +83,6 @@ audio.addEventListener("ended", function () {
 
 repeat.addEventListener("click", loop);
 randomSong.addEventListener("click", random);
-
 
 function fetchMusicDetails() {
     $("#playpausebtn img").attr("src", "./Images/pause-red.png");
@@ -132,7 +132,6 @@ function mute() {
         $("#mutebtn img").attr("src", "./Images/mute.png");
     }
 }
-
 function seek(event) {
     if (audio.duration == 0) {
         null
@@ -147,8 +146,6 @@ function seek(event) {
 function setvolume() {
     audio.volume = volumeslider.value / 100;
 }
-
-
 function seektimeupdate() {
     if (audio.duration) {
         let nt = audio.currentTime * (100 / audio.duration);
@@ -168,7 +165,6 @@ function seektimeupdate() {
         durtimetext.innerHTML = "00" + ":" + "00";
     }
 }
-
 function switchTrack() {
     if (playlist_index == (playlist.length - 1)) {
         playlist_index = 0;
@@ -198,3 +194,12 @@ function random() {
     playlist_index = randomIndex;
     fetchMusicDetails();
 }
+
+
+
+
+
+
+
+
+

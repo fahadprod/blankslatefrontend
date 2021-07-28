@@ -68,7 +68,7 @@ header nav ul li a
  
 header nav ul li a:hover,header nav ul li a:focus
 {
-    color: red;
+    color: #e67e22;
     text-decoration: none;
     
 }
@@ -76,8 +76,9 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .img1
 {
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(..//image/slider1.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(..//image/a3.jpg);
     background-size: 100% 100%;
+    
 }
 
 .slider,.slider ul,.slider ul li
@@ -112,7 +113,8 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .slider a.btn-half
 {
-    background-color: deepskyblue;
+    
+    border: 2px solid deepskyblue;
     color: white;
     transition: 0.5s ease-in;
 }
@@ -137,14 +139,14 @@ header nav ul li a:hover,header nav ul li a:focus
 }
 .img2
 {
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/eee.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/a1.jpg);
     background-size: 100% 100%;
 }
 
 
 .img3
 {
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image//newyork29.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image//a2.jpg);
     background-size: 100% 100%;
 }
 
@@ -304,7 +306,7 @@ header nav ul li a:hover,header nav ul li a:focus
 .feature-area
 {
     
-    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)), url(../image/slider1.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)), url(../image/a4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -431,7 +433,8 @@ header nav ul li a:hover,header nav ul li a:focus
  
 .feature-mockup
 {
-    bottom: -120px;
+    bottom: -100px;
+    margin-left: -60px;
     position: relative;
     
 }
@@ -532,7 +535,7 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .testimonials
 {
-    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url(..//image/slider1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url(..//image/a5.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -749,7 +752,7 @@ header nav ul li a:hover,header nav ul li a:focus
 
 .download
 {
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/clouds.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(..//image/a6.jpg);
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -776,7 +779,7 @@ header nav ul li a:hover,header nav ul li a:focus
 .download .default-btn:hover
 {
     background: white;
-    color: deepskyblue;
+    color: deepskyblue !important;
 }
 
 .download .fa
@@ -950,8 +953,20 @@ footer
     margin-top:20px;
 }
 
+.default-btn{
 
+    background-color: deepskyblue; 
+    color:#f5f5f5;
+}
+.default-btn:hover{
 
+    background-color: dodgerblue;
+    color:#f5f5f5 !important;
+}
+.space-ends{
+
+    margin:2px;
+}
 
 
 

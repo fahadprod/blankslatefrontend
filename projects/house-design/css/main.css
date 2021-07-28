@@ -10,10 +10,10 @@
 body {
   color: var(--mainBlack);
   background: var(--mainWhite);
-  font-family: "Mali", cursive;
+  font-family: "Roboto", Regular;
 }
 .text-slanted {
-  font-family: "Calligraffitti", cursive;
+  font-family: "Roboto", Regular;
 }
 .text-yellow {
   color: var(--mainYellow);
@@ -75,9 +75,11 @@ body {
   border: none;
   font-size: 2.2rem;
   color: var(--mainYellow) !important;
+  
 }
 .nav-link {
-  font-size: 1.6rem;
+  
+  font-size: 1.0rem;
   border-bottom: 0.1rem solid var(--mainWhite);
 }
 .nav-active {
@@ -115,10 +117,10 @@ body {
 /* services */
 .service-icon {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
   color: var(--mainYellow);
-  background: var(--mainGrey);
+  
   padding: 0.5rem 1rem;
   border-radius: 50%;
 }
@@ -254,10 +256,12 @@ body {
 /* footer */
 .footer {
   background: rgba(0, 0, 0, 0.8);
+   color:white;
 }
 .footer-title {
   border: 0.2rem solid var(--mainYellow);
   padding: 0.4rem;
+  
 }
 .footer-icon {
   color: var(--mainYellow);

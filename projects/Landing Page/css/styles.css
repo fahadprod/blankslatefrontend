@@ -5,6 +5,30 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.bgfil{
+  
+  background-color: rgb(0, 126, 42) !important;
+  color: #fff !important;
+  padding-left:  30px !important;
+  padding-right:  30px !important;
+  margin-right: 10px;
+
+}
+.bgfil:hover{
+
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(0, 126, 42) !important;
+
+}
+
+.hightsession{
+
+  margin-top: 90px;
+  margin-bottom: 90px;
+
+
+}
+
 .gradient {
   background-image: url("../img/background-1.jpg");
   background-attachment: fixed;
@@ -15,7 +39,10 @@ body {
   font-size: 1.25rem;
   color: #fff;
 }
+.fontwht{
 
+  font-weight: 300;
+}
 .feature {
   color: #fff;
 }
@@ -45,11 +72,13 @@ body {
 }
 
 .gallery {
-  background-color: whitesmoke;
+  background-color: rgba(245, 245, 245, 0);
+  
 }
 
 .gallery img {
   border-radius: 5%;
+  
 }
 
 .services {

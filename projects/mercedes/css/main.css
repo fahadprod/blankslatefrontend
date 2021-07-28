@@ -127,9 +127,9 @@ body{
 }
 /* skills */
 .skills-icon{
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--mainYellow);
-  background: var(--mainGrey);
+  /* background: var(--mainGrey); */
 }
 .skills-icon:hover{
   color: var(--mainYellow);
@@ -165,14 +165,14 @@ body{
   background: url('../img/questionBcg.jpeg')center/cover fixed no-repeat;
 }
 .question-grey{
-  background: rgba(79,109,122,0.75);
+  background: rgba(186, 221, 236, 0.75);
 }
 .question-yellow{
   background: rgba(227,181,5,0.75);
 }
 .question-icon{
   font-size: 4rem;
-  color: var(--mainBlue);
+  color: var(--mainBlack);
   transition: all 0.5s ease-in-out;
 }
 .question-icon:hover{

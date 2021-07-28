@@ -395,15 +395,15 @@ a {
   border-radius: 1rem;
   margin: 2rem 0;
   /* box shadow styling */
-  -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.123);
+  -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.116);
+  box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.048);
   transition: var(--mainTransition);
 }
 .service-card:hover {
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.062);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.055);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.075);
 }
 .service-img {
   width: 100%;
@@ -472,9 +472,9 @@ a {
   color: var(--mainDark);
   transform: translate(-50%, 50%);
   /* box shadow */
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.034);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.103);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.034);
 }
 /* end of services */
 /* contact */

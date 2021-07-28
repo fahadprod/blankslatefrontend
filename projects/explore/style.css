@@ -11,15 +11,13 @@ body{
     
 }
 
- 
-
 /***************
 Header Area starts
 ****************/
 
 .mobile-app-banner{
     
-    background-image: url(img/slider9.jpg.png);
+    background-image: url(img/a2.jpeg);
     background-size: cover;
     background-position: center;
     height: 800px;
@@ -493,6 +491,7 @@ ul.social-list li:nth-child(3) a:hover{
         background-size: cover;
         background-attachment: fixed;
         background-position: top;
+        margin-bottom:-90px ;
 
 
     }
@@ -1008,6 +1007,11 @@ Responsive tab starts
 .price .butn {
   padding: 10px 30px;
 }
+.price .butn-bg:hover {
+    background-color: #fff;
+    border: 1px solid #fb527a;
+    color: #fb527a;
+  }
 .price .butn span {
   font-size: 12px;
 }

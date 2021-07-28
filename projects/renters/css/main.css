@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Caveat|Mali");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 :root {
-  --mainDark: #242325;
-  --mainGreen: #61e786;
+  --mainDark: #101035;
+  --mainGreen: #d6de3f;
   --mainWhite: #fff;
   --mainGrey: #eeeeee;
+
 }
 body {
-  font-family: "Mali", cursive;
+  font-family: 'Open Sans', sans-serif;
   background: var(--mainWhite);
   color: var(--mainDark);
 }
@@ -16,16 +17,26 @@ body {
   color: var(--mainGreen);
 }
 .text-slant {
-  font-family: "Caveat", cursive;
+  font-family: 'Open Sans', sans-serif;
 }
 .green__btn {
-  color: var(--mainGreen);
-  border: 0.1rem solid var(--mainGreen);
-  background: transparent;
+  color: var(--mainDark);
+  background: var(--mainGreen);
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .green__btn:hover {
   background: var(--mainGreen);
   color: var(--mainWhite);
+}
+.align{
+
+  text-align: left;
+
+}
+.form-control{
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .title-underline {
   width: 12rem;
@@ -52,6 +63,12 @@ body {
 .navbar {
   background: var(--mainDark) !important;
 }
+.nav-img{
+  width: 100px;
+}
+.nav-item{
+  padding: 6px 10px;
+}
 .phone-icon {
   color: var(--mainGreen);
   border: 0.1rem solid var(--mainGreen);
@@ -62,8 +79,15 @@ body {
 /* banner */
 .banner-info {
   min-height: calc(100vh - 101px);
-  background: var(--mainGrey);
+  background: var(--mainDark);
+  color: #fff;
   position: relative;
+  
+}
+.content{
+
+ padding-top: 200px;
+
 }
 .banner-info__footer {
   background: var(--mainGreen);
@@ -74,7 +98,7 @@ body {
 }
 .banner-img {
   min-height: calc(100vh - 101px);
-  background: url("../img/bannerBcg.jpeg") center/cover fixed no-repeat;
+  background: url("../img/a12.jpeg") center/cover fixed no-repeat;
   /* background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -127,6 +151,7 @@ body {
   background: transparent;
   border: 0.1rem solid var(--mainWhite);
   color: var(--mainWhite);
+  margin-left: 10px;
 }
 .contact-btn:hover {
   background: var(--mainWhite);
@@ -136,7 +161,7 @@ body {
 .services,
 .tour {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../img/bannerBcg.jpeg") center/cover fixed no-repeat;
+    url("../img/a15.jpeg") center/cover fixed no-repeat;
 }
 .services-info-text {
   position: absolute;
@@ -152,18 +177,24 @@ body {
 .services-info-text:hover {
   color: var(--mainDark) !important;
   text-decoration: none;
+  
 }
 .service-icon {
   font-size: 2rem;
   color: var(--mainGreen);
-  padding: 0.5rem;
-  border: 0.1rem solid var(--mainGreen);
+  padding: 30px 40px;
+  border-radius: 100%;
+  border: 2px solid #d6de3f;
   margin-right: 1rem;
   transition: all 1s ease-in-out;
 }
 .service-icon:hover {
   background: var(--mainGreen);
   color: var(--mainGrey);
+}
+.service-link {
+  color: var(--mainGreen);
+  
 }
 .service-link:hover {
   color: var(--mainWhite);
@@ -223,12 +254,13 @@ body {
 .tour-icon {
   color: var(--mainGreen);
   margin-bottom: 1rem;
-  padding: 0.75rem;
-  background: var(--mainWhite);
-  border-radius: 30%;
+  padding: 20px 30px;
+  border: 2px solid #d6de3f;
+  border-radius: 100%;
   font-size: 2rem;
   cursor: pointer;
   transition: all 1s linear;
+
 }
 .tour-icon:hover {
   background: var(--mainGreen);

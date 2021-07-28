@@ -252,7 +252,7 @@ a{
 .myslides .p_img{
     display: block;
     width: auto;
-    height: 500px;
+    height: 340px;
     position: relative;
     z-index: 20;
     animation-duration: 1.2s;
@@ -274,7 +274,10 @@ a{
     z-index: 30;
 }
 
+.textstyle{
 
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .myslides .p_detail h3{
     font-size: 50px;

@@ -1,7 +1,7 @@
 /*white smoke #f4f4f9*/
 
 body {
-  font-family: 'Kalam', cursive;
+  font-family: 'Roboto', regular;
   position: relative;
   background: #f1fffa;
 }
@@ -33,14 +33,9 @@ body {
 .navbar-background {
   padding: 2px 20px!important
 }
-
-
-
-
 .navbar-brand {
-  color: #2a9134;
-  border: 3px solid #2a9134;
-  font-size: 30px;
+  
+ 
   transition: all 2s;
 }
 
@@ -82,7 +77,7 @@ body {
 
 .nav-link {
   color: #f1fffa;
-  font-size: 25px;
+  font-size: 20px;
   padding: 10px 20px!important;
   border-radius: 5px;
   transition: background 2s ease;
@@ -96,8 +91,8 @@ body {
 
 .nav-active {
   color: #f1fffa;
-  font-size: 25px;
-  padding: 10px 20px!important;
+  font-size: 20px;
+  padding: 8px 16px!important;
   border-radius: 5px;
   background: rgba(42, 145, 52, 0.6);
   transition: background 2s ease;
@@ -122,22 +117,22 @@ body {
 .item-1,
 .item-2,
 .item-3 {
-  min-height: 60vh;
+  min-height: 120vh;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
 
 }
 
 
 .item-1 {
-  background: linear-gradient(to right, rgba(42, 145, 52, 0.9), rgba(42, 145, 52, 0.5)), url(img/banner-1.jpeg)center/cover fixed no-repeat;
+  background: linear-gradient(to right,  rgba(42, 145, 52, 0.438),rgba(172, 255, 180, 0.068)), url(img/Bnr1.jpeg)center/cover fixed no-repeat;
 }
 
 .item-2 {
-  background: linear-gradient(to right, rgba(42, 145, 52, 0.9), rgba(42, 145, 52, 0.5)), url(img/banner-2.jpeg) center/cover fixed no-repeat;
+  background: linear-gradient(to right, rgba(42, 145, 52, 0.438),rgba(172, 255, 180, 0.068)), url(img/Bnr2.jpeg) center/cover fixed no-repeat;
 }
 
 .item-3 {
-  background: linear-gradient(to right, rgba(42, 145, 52, 0.9), rgba(42, 145, 52, 0.5)), url(img/banner-3.jpeg) center/cover fixed no-repeat;
+  background: linear-gradient(to right, rgba(42, 145, 52, 0.438),rgba(172, 255, 180, 0.068)), url(img/banner-3.jpeg) center/cover fixed no-repeat;
 }
 
 .no-padding {
@@ -218,9 +213,10 @@ body {
 
 
 #about {
-  min-height: 40vh;
-  background: #909090;
+  min-height: 60vh;
+  background: #90909034;
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  
 
 }
 
@@ -241,17 +237,16 @@ body {
 
 }
 
-.about-progress {
+/* .about-progress {
   min-height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/video-filler.jpeg)center/cover fixed no-repeat;
   outline: 5px solid #2a9134;
   outline-offset: 10px;
-}
-
-
+} */
 
 
 .progress-bar {
+
   background: #2a9134;
 
 }
@@ -259,8 +254,8 @@ body {
 /*##############video-filler###############*/
 
 #modal-filler {
-  min-height: 50vh;
-  background: linear-gradient(rgba(42, 145, 52, 0.5), rgba(42, 145, 52, 0.5)), url(img/video-filler.jpeg)center/cover fixed no-repeat;
+  min-height: 70vh;
+  background: linear-gradient(rgba(42, 145, 52, 0.438),rgba(172, 255, 180, 0.068)), url(img/Bnr2.jpeg)center/cover fixed no-repeat;
 }
 
 #modal-filler a {
@@ -512,10 +507,10 @@ body {
 
 /*###########reviews#########*/
 
-#reviews {
+/* #reviews {
   background: linear-gradient(rgba(42, 145, 52, 0.7), rgba(42, 145, 52, 0.7)), url(img/banner-1.jpeg);
   color: #f1fffa;
-}
+} */
 
 .customer-text h3 {
   color: #242424;
@@ -615,9 +610,9 @@ body {
   min-height: 80vh;
 }
 
-#contact {
+/* #contact {
   background: linear-gradient(rgba(42, 145, 52, 0.3), rgba(42, 145, 52, 0.3)), url(img/banner-1.jpeg)center/cover fixed no-repeat;
-}
+} */
 
 
 #contact .card {
@@ -630,7 +625,7 @@ body {
 }
 
 #contact .card-header {
-  color: #2a9134;
+  color: #ffffff;
 }
 
 #contact .input-group-text {
